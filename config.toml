@@ -28,7 +28,7 @@ pygmentsCodefences      = true
     #link = "/gallery"
     #text = "gallery"
 
-#[[params.mainMenu]]
-    #link = "/about"
-    #text = "who is sam?"
+[[params.mainMenu]]
+    link = "/about"
+    text = "what is this?"
     
