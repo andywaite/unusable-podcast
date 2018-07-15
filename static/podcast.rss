@@ -2,7 +2,7 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel>
 <title>Unusable podcast</title>
-<link>http://www.example.com/<link>
+<link>https://confident-haibt-970ea3.netlify.com<link>
 <language>en-gb</language>
 <itunes:subtitle>Discussions about the importance of usability &amp; UX in technology &amp; the world around us.</itunes:subtitle>
 <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
@@ -15,7 +15,6 @@
 <itunes:explicit>no</itunes:explicit>
 <itunes:image href="https://confident-haibt-970ea3.netlify.com/unusable-logo.jpg" />
 <itunes:category text="Technology"/></itunes:category>
-
 <item>
     <title>WTF is usability anyway?</title>
     <itunes:summary>Andrew &amp; David discuss what we mean by usability, user experience (UX), &amp; talk about norman doors &amp; the importance of an easy website checkout.</itunes:summary>
@@ -28,6 +27,5 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://example.com/podcast-1</guid>
 </item>
-
 </channel>
 </rss>
