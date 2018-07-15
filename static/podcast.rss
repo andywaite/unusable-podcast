@@ -4,10 +4,10 @@
 <title>Unusable podcast</title>
 <link>http://www.example.com/<link>
 <language>en-gb</language>
-<itunes:subtitle>Subtitle of podcast</itunes:subtitle>
+<itunes:subtitle>Discussions about the importance of usability &amp; UX in technology &amp; the world around us.</itunes:subtitle>
 <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
-<itunes:summary>Description of podcast.</itunes:summary>
-<description>Description of podcast.</description>
+<itunes:summary>Discussions about the importance of usability &amp; UX in technology &amp; the world around us.</itunes:summary>
+<description>Discussions about the importance of usability &amp; UX in technology &amp; the world around us.</description>
 <itunes:owner>
     <itunes:name>Andrew Waite</itunes:name>
     <itunes:email>unusable@andywaite.me</itunes:email>
@@ -18,10 +18,10 @@
 
 <item>
     <title>WTF is usability anyway?</title>
-    <itunes:summary>Andrew &amp; David discuss what we mean by usability, user experience, &amp; talk about norman doors &amp; the importance of an easy website checkout.</itunes:summary>
-    <description>Description of podcast episode content</description>
-    <link>http://example.com/podcast-1</link>
-    <enclosure url="http://example.com/podcast-1/podcast.mp3" type="audio/mpeg" length="1024"></enclosure>
+    <itunes:summary>Andrew &amp; David discuss what we mean by usability, user experience (UX), &amp; talk about norman doors &amp; the importance of an easy website checkout.</itunes:summary>
+    <description>Andrew &amp; David discuss what we mean by usability, user experience (UX), &amp; talk about norman doors &amp; the importance of an easy website checkout.</description>
+    <link>https://confident-haibt-970ea3.netlify.com</link>
+    <enclosure url="http://example.com/podcast-1/podcast.mp3" type="audio/mpeg" length="24745883"></enclosure>
     <pubDate>Thu, 15 July 2018 16:00:00 +0000</pubDate>
     <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
     <itunes:duration>00:21:52</itunes:duration>
