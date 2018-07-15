@@ -3,6 +3,7 @@
 <channel>
 <title>Unusable podcast</title>
 <link>https://confident-haibt-970ea3.netlify.com</link>
+<atom:link href="https://confident-haibt-970ea3.netlify.com/podcast.rss" rel="self" type="application/rss+xml" />
 <language>en-gb</language>
 <itunes:subtitle>Discussions about the importance of usability &amp; UX in technology &amp; the world around us.</itunes:subtitle>
 <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
