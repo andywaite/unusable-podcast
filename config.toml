@@ -10,10 +10,8 @@ pygmentsCodefences      = true
     dateform            = "Mon Jan 02, 2006"
     dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
     favicon             = "/sam.ico"
-    homepage            = "main"                        # What to call the home page link
-    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
-    clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "Call me Sam, a theme for Hugo."
+    homepage            = "home"                        # What to call the home page link
+    footerText          = "The Unusable Podcast."
 
 # Metadata
     description         = "The Unusable Podcast"            # Max 160 characters show in search results
@@ -24,9 +22,9 @@ pygmentsCodefences      = true
     #link = "/posts"
     #text = "writing"
 
-#[[params.mainMenu]]
-    #link = "/gallery"
-    #text = "gallery"
+[[params.mainMenu]]
+    link = "/podcasts"
+    text = "podcasts"
 
 [[params.mainMenu]]
     link = "/about"
