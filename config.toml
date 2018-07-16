@@ -1,4 +1,4 @@
-baseurl                 = "https://confident-haibt-970ea3.netlify.com/"               # Your domain name. Must end with "/"
+baseurl                 = "https://podcast.theunusable.com/"               # Your domain name. Must end with "/"
 languageCode            = "en-gb"
 title                   = "The Unusable Podcast"
 theme                   = "hugo-theme-sam"
