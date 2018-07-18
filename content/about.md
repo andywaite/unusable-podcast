@@ -7,3 +7,6 @@ On the Unusable podcast, we discuss the importance of usability & UX in technolo
 
 If you'd like to subscribe to this as a podcast, please search for "Unusable podcast" in your podcast app, or use this feed:
 https://podcast.theunusable.com/podcast.rss
+
+Here's the Youtube channel:
+https://www.youtube.com/channel/UCxdO6AuYHzWyjEws2_A2xqA
