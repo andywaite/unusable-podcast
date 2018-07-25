@@ -16,7 +16,7 @@ pygmentsCodefences      = true
 # Metadata
     description         = "The Unusable Podcast"            # Max 160 characters show in search results
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
-    primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+    primaryImage        = "/cover.jpg"                     # Image that shows on Twitter cards and OpenGraph links
 
 #[[params.mainMenu]]
     #link = "/posts"
