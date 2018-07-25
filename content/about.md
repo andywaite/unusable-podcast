@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2018-02-13T13:42:49-05:00
+description: "About the Unusable Podcast"
 ---
 
 On the Unusable podcast, we discuss the importance of usability & UX in technology & the world around us.

@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     <!-- Character max 160-->
-    <meta name="description" content="{{.Site.Params.description | default "Call me Sam, a theme for Hugo."}}">
+    <meta name="description" content="{{ .Description | default .Site.Params.description}}">
     <!-- Card value “summary”, “summary_large_image”, “app”, or “player”-->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:domain" content="{{.Site.BaseURL}}">
