@@ -14,7 +14,7 @@ pygmentsCodefences      = true
     footerText          = "The Unusable Podcast."
 
 # Metadata
-    description         = "The Unusable Podcast"            # Max 160 characters show in search results
+    description         = "The Unusable Podcast - Discussions about the importance of usability &amp; UX"            # Max 160 characters show in search results
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
     primaryImage        = "/cover.jpg"                     # Image that shows on Twitter cards and OpenGraph links
 
