@@ -40,5 +40,17 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>https://podcast.theunusable.com/podcasts/002-killed-by-bad-usability/</guid>
 </item>
+<item>
+    <title>Unusable measurements</title>
+    <itunes:summary>Andrew &amp; David In this episode Andrew & David discuss units of measurements (including time & length) and how unnecessarily complicated they are. Also there's a brief discussion about how babies should be measured, David talks about how showers should work, and Andy talks about touchscreen drinks dispensers.</itunes:summary>
+    <description>In this episode Andrew & David discuss units of measurements (including time & length) and how unnecessarily complicated they are. Also there's a brief discussion about how babies should be measured, David talks about how showers should work, and Andy talks about touchscreen drinks dispensers.</description>
+    <link>https://podcast.theunusable.com/podcasts/003-unusable-measurements/</link>
+    <enclosure url="https://podcast.theunusable.com/podcasts/003-unusable-measurements.mp3" type="audio/mpeg" length="0"></enclosure>
+    <pubDate>Thu, 22 July 2018 16:00:00 +0000</pubDate>
+    <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
+    <itunes:duration>00:49:00</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>https://podcast.theunusable.com/podcasts/003-unusable-measurements/</guid>
+</item>
 </channel>
 </rss>

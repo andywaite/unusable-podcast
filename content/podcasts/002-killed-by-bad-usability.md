@@ -8,4 +8,8 @@ In this episode Andrew & David discuss when bad usability or UX has had horrible
 
 Here's the link to the episode: https://podcast.theunusable.com/podcasts/002-unusable-podcast-killed-by-bad-usability.mp3
 
+Links to things we talked about:
+https://medium.com/tragic-design/how-bad-ux-killed-jenny-ef915419879e
+https://www.quora.com/What-are-some-examples-of-bad-design-that-killed-someone
+
 Music is by [Gold5472](https://gold5472.newgrounds.com/)
