@@ -10,6 +10,7 @@ git submodule update --init --recursive
 To add a new episode:
 - hugo new podcasts/004-whatever.md
 - Remove draft:true from new page in content/podcasts
+- Make sure the new page is in git
 - Add: description: "lorem ipsum"
 - Write a description of the episode in the file, and link to the MP3 file
 - Add the mp3 file to static/podcasts
