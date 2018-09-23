@@ -42,15 +42,27 @@
 </item>
 <item>
     <title>Unusable measurements</title>
-    <itunes:summary>Andrew &amp; David In this episode Andrew & David discuss units of measurements (including time & length) and how unnecessarily complicated they are. Also there's a brief discussion about how babies should be measured, David talks about how showers should work, and Andy talks about touchscreen drinks dispensers.</itunes:summary>
+    <itunes:summary>In this episode Andrew & David discuss units of measurements (including time & length) and how unnecessarily complicated they are. Also there's a brief discussion about how babies should be measured, David talks about how showers should work, and Andy talks about touchscreen drinks dispensers.</itunes:summary>
     <description>In this episode Andrew & David discuss units of measurements (including time & length) and how unnecessarily complicated they are. Also there's a brief discussion about how babies should be measured, David talks about how showers should work, and Andy talks about touchscreen drinks dispensers.</description>
     <link>https://podcast.theunusable.com/podcasts/003-unusable-measurements/</link>
     <enclosure url="https://podcast.theunusable.com/podcasts/003-unusable-measurements.mp3" type="audio/mpeg" length="0"></enclosure>
-    <pubDate>Thu, 22 July 2018 16:00:00 +0000</pubDate>
+    <pubDate>Thu, 2 September 2018 16:00:00 +0000</pubDate>
     <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
     <itunes:duration>00:49:00</itunes:duration>
     <itunes:explicit>no</itunes:explicit>
     <guid>https://podcast.theunusable.com/podcasts/003-unusable-measurements/</guid>
+</item>
+<item>
+    <title>Road signs are confusing</title>
+    <itunes:summary>Andy and David discuss road signs and instructions that are confusing, and cause more problems than they solve. They also discuss: Should roadsigns be replaced by emojis? Andy’s bad experience ordering at KFC using a touchscreen, none pizza with left beef, the complications of imperial vs metric (again) &amp; a terrible conversation with a Tomtom</itunes:summary>
+    <description>Andy and David discuss road signs and instructions that are confusing, and cause more problems than they solve. They also discuss: Should roadsigns be replaced by emojis? Andy’s bad experience ordering at KFC using a touchscreen, none pizza with left beef, the complications of imperial vs metric (again) &amp; a terrible conversation with a Tomtom</description>
+    <link>https://podcast.theunusable.com/podcasts/004-road-signs-are-confusing/</link>
+    <enclosure url="https://podcast.theunusable.com/podcasts/004-road-signs-are-confusing.mp3" type="audio/mpeg" length="0"></enclosure>
+    <pubDate>Thu, 23 September 2018 16:00:00 +0000</pubDate>
+    <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
+    <itunes:duration>00:52:00</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>https://podcast.theunusable.com/podcasts/004-road-signs-are-confusing/</guid>
 </item>
 </channel>
 </rss>

@@ -17,3 +17,5 @@ To add a new episode:
 - Commit just the mp3 file & give Andy the url so he can listen
 - Create a video version in iMovie & upload to Youtube
 - Edit static/podcasts/podcast.rss - add new item
+- Run command "hugo" to build the site.
+- Commit and push

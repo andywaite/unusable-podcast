@@ -11,3 +11,5 @@ https://podcast.theunusable.com/podcast.rss
 
 Here's the Youtube channel:
 https://www.youtube.com/channel/UCxdO6AuYHzWyjEws2_A2xqA
+
+You can get in touch to share your bad usability stories by emailing podcast@theunusable.com or on twitter: [@unusablepodcast](https://twitter.com/unusablepodcast)
