@@ -12,8 +12,9 @@ In this episode of the Unusable Podcast, discuss road signs and instructions tha
 - A terrible conversation with a Tomtom
 
 Links mentioned:
-[Young drivers understand roadsigns better](https://www.rsagroup.com/news/press-releases/2016/young-drivers-understand-emoji-road-signs-better-than-real-road-signs/)
+[Young drivers understand enoji roadsigns better](https://www.rsagroup.com/news/press-releases/2016/young-drivers-understand-emoji-road-signs-better-than-real-road-signs/)
 [Andy can't get corn](https://twitter.com/UnusablePodcast/status/1044204790174175232)
+[None pizza with left beef](https://gizmodo.com/reflections-on-the-10th-anniversary-of-none-pizza-with-1819692097)
 
 The Unusable podcast is presented by Andrew Waite & David Ball, who discuss the importance of user experience (UX) in technology & the world around us, & talk about great design that just works - or moan about it when it doesn't.
 
