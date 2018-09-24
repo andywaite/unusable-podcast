@@ -11,6 +11,10 @@ In this episode of the Unusable Podcast, discuss road signs and instructions tha
 - The complications of imperial vs metric (again)
 - A terrible conversation with a Tomtom
 
+Links mentioned:
+[Young drivers understand roadsigns better](https://www.rsagroup.com/news/press-releases/2016/young-drivers-understand-emoji-road-signs-better-than-real-road-signs/)
+[Andy can't get corn](https://twitter.com/UnusablePodcast/status/1044204790174175232)
+
 The Unusable podcast is presented by Andrew Waite & David Ball, who discuss the importance of user experience (UX) in technology & the world around us, & talk about great design that just works - or moan about it when it doesn't.
 
 Here's the link to the episode: https://podcast.theunusable.com/podcasts/004-road-signs-are-confusing.mp3
