@@ -7,6 +7,9 @@ description: "Andrew &amp; David discuss units of measurements (including time &
 In this episode Andrew & David discuss units of measurements (including time & length) and how unnecessarily complicated they are.
 Also there's a brief discussion about how babies should be measured, David talks about how showers should work, and Andy talks about touchscreen drinks dispensers.
 
+Links to things mentioned:
+- [A shower with only a "stop" button, but no "start"](https://twitter.com/davidonionball/status/927128088328265729)
+
 Here's the link to the episode: https://podcast.theunusable.com/podcasts/003-unusable-measurements.mp3
 
 

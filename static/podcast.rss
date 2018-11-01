@@ -64,5 +64,17 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>https://podcast.theunusable.com/podcasts/004-road-signs-are-confusing/</guid>
 </item>
+<item>
+    <title>History of computer user interfaces &amp; the future of natural UI</title>
+    <itunes:summary>Andrew &amp; David talk about the history of computer user interfaces &amp; early computers, where UI is heading in the future with natural interfaces, &amp; Andy has a frustrating experience with a parking machine.</itunes:summary>
+    <description>Andrew &amp; David talk about the history of computer user interfaces &amp; early computers, where UI is heading in the future with natural interfaces, &amp; Andy has a frustrating experience with a parking machine.</description>
+    <link>https://podcast.theunusable.com/podcasts/005-history-of-computer-interfaces/</link>
+    <enclosure url="https://podcast.theunusable.com/podcasts/005-graphical-user-interface-history.mp3" type="audio/mpeg" length="0"></enclosure>
+    <pubDate>01 Nov 2018 16:00:00 +0000</pubDate>
+    <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
+    <itunes:duration>00:57:00</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>https://podcast.theunusable.com/podcasts/005-history-of-computer-interfaces/</guid>
+</item>
 </channel>
 </rss>
