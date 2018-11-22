@@ -1,5 +1,5 @@
 ---
-title: "006 Dark Patterns in UI encourages you to buy more rubbish online that you don't need"
+title: "006 Getting tricked online by UI dark patterns"
 date: 2018-11-22T14:47:44Z
 description: "Dark patterns are tricks that get customers to buy more in websites &amp; apps. Andrew &amp; David find examples &amp; prove how they're effective."
 ---
