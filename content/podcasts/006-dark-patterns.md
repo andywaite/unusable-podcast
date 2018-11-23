@@ -18,6 +18,7 @@ Other things we discussed:
 
 Links mentioned:
 - [Dark Patterns some examples to watch out for (Youtube video)](https://www.youtube.com/watch?v=e8r47hZX2G8)
+- [5 Naughty Conversion ‘Dark Patterns’ to Avoid in 2018 (+ What To Do Instead!)](https://postfunnel.com/5-naughty-conversion-dark-patterns-to-avoid-in-2018-what-to-do-instead/)
 - [Wish.com](https://www.wish.com/)
 
 The Unusable podcast is presented by Andrew Waite & David Ball, who discuss the importance of user experience (UX) in technology & the world around us, & talk about great design that just works - or moan about it when it doesn't.
