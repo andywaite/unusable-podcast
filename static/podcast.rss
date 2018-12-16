@@ -88,5 +88,17 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>https://podcast.theunusable.com/podcasts/006-dark-patterns/</guid>
 </item>
+<item>
+    <title>Do cultural differences affect usability?</title>
+    <itunes:summary>Cultures differ around the world - does that mean user interfaces should differ too? We talk about how companies have failed to reach international audiences &amp; some funny cultural blunders!</itunes:summary>
+    <description>Cultures differ around the world - does that mean user interfaces should differ too? We talk about how companies have failed to reach international audiences &amp; some funny cultural blunders!</description>
+    <link>https://podcast.theunusable.com/podcasts/007-cultural-differences-affects-usability/</link>
+    <enclosure url="https://podcast.theunusable.com/podcasts/007-cultural-differences.mp3" type="audio/mpeg" length="0"></enclosure>
+    <pubDate>10 Dec 2018 16:00:00 +0000</pubDate>
+    <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
+    <itunes:duration>00:38:00</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>https://podcast.theunusable.com/podcasts/007-cultural-differences-affects-usability/</guid>
+</item>
 </channel>
 </rss>
