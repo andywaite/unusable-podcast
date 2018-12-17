@@ -19,3 +19,4 @@ To add a new episode:
 - Run command "hugo" to build the site.
 - Commit and push
 - Check feed is valid with http://castfeedvalidator.com/ & https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fpodcast.theunusable.com%2Fpodcast.rss
+- On Youtube add the end links
