@@ -14,9 +14,11 @@ To add a new episode:
 - Make sure the new page is in git
 - Add: description: "lorem ipsum"
 - Write a description of the episode in the file, and link to the MP3 file
-- Create a video version in iMovie & upload to Youtube
 - Edit static/podcasts/podcast.rss - add new item
 - Run command "hugo" to build the site.
 - Commit and push
 - Check feed is valid with http://castfeedvalidator.com/ & https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fpodcast.theunusable.com%2Fpodcast.rss
-- On Youtube add the end links
+- Create a video version in iMovie, fade to black 20 seconds before.
+- Upload video version to Youtube & add the end links
+
+Guide for creating a video
