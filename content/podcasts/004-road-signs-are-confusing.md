@@ -5,18 +5,22 @@ description: "Andrew &amp; David discuss road signs and instructions that are co
 ---
 
 In this episode of the Unusable Podcast, Andrew & David discuss road signs and instructions that are confusing, and cause more problems than they solve. They also discuss:
-- Should roadsigns be replaced by emojis?
-- Andy’s bad experience ordering at KFC using a touchscreen
-- None pizza with left beef
-- The complications of imperial vs metric (again)
-- A terrible conversation with a Tomtom
+<ul>
+<li>Should roadsigns be replaced by emojis?</li>
+<li>Andy’s bad experience ordering at KFC using a touchscreen</li>
+<li>None pizza with left beef</li>
+<li>The complications of imperial vs metric (again)</li>
+<li>A terrible conversation with a Tomtom</li>
+</ul>
 
 Links mentioned:
-- [Young drivers understand enoji roadsigns better](https://www.rsagroup.com/news/press-releases/2016/young-drivers-understand-emoji-road-signs-better-than-real-road-signs/)
-- [Andy can't get corn](https://twitter.com/UnusablePodcast/status/1044204790174175232)
-- [None pizza with left beef](https://gizmodo.com/reflections-on-the-10th-anniversary-of-none-pizza-with-1819692097)
-- [Photos of our own pizza on Twitter](https://twitter.com/UnusablePodcast/status/1045132181427957760)
-- [Photos of the "stay in lane now" sign on Twitter](https://twitter.com/UnusablePodcast/status/1044769789351260160)
+<ul>
+<li>[Young drivers understand enoji roadsigns better](https://www.rsagroup.com/news/press-releases/2016/young-drivers-understand-emoji-road-signs-better-than-real-road-signs/)</li>
+<li[Andy can't get corn](https://twitter.com/UnusablePodcast/status/1044204790174175232)</li>
+<li>[None pizza with left beef](https://gizmodo.com/reflections-on-the-10th-anniversary-of-none-pizza-with-1819692097)</li>
+<li>[Photos of our own pizza on Twitter](https://twitter.com/UnusablePodcast/status/1045132181427957760)</li>
+<li>[Photos of the "stay in lane now" sign on Twitter](https://twitter.com/UnusablePodcast/status/1044769789351260160)</li>
+</ul>
 
 The Unusable podcast is presented by Andrew Waite & David Ball, who discuss the importance of user experience (UX) in technology & the world around us, & talk about great design that just works - or moan about it when it doesn't.
 
