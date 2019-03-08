@@ -109,58 +109,8 @@
 </item>
 <item>
     <title>Design Crimes From 2018</title>
-    <itunes:summary>
-    <p>Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the Playstation buttons.</p>
-    <p>Other things we talk about:</p>
-    <ul>
-      <li>Dongles</li>
-      <li>Bad usability prevents Americans from voting</li>
-      <li>How the hamburger menu is horrible</li>
-      <li>A urinal game</li>
-      <li>A building that injures people</li>
-      <li>A terrible robot shop assistant</li>
-      <li>A computer forces David into an encounter with a naked man</li>
-      <li>The origins of the Playstation buttons</li>
-      <li>Inclusive design</li>
-    </ul>
-    <p>Links mentioned:</p>
-    <ul>
-      <li><a href="https://www.fastcompany.com/90281011/the-worst-design-crimes-of-2018">The worst design crimes of 2018)</a></li>
-      <li><a href="https://www.fastcompany.com/90168443/t-mobile-slapped-with-a-40-million-fine-for-its-deceptive-design">T-Mobile Slapped With A $40 Million Fine For Its Deceptive Design)</a></li>
-      <li><a href="https://www.nngroup.com/articles/hamburger-menu-vs-pizza/">Banish the Hamburger Menu, Adopt Pizza Menus</a></li>
-    </ul>
-    <p>The Unusable podcast is presented by Andrew Waite &amp; David Ball, who discuss the importance of user experience (UX) in technology &amp; the world around us, &amp; talk about great design that just works - or moan about it when it doesn't.</p>
-    <p>Here's the link to the episode: <a href="https://podcast.theunusable.com/podcasts/008-design-crimes-from-2018.mp3">https://podcast.theunusable.com/podcasts/008-design-crimes-from-2018.mp3</a></p>
-    <p>Music is by <a href="https://gold5472.newgrounds.com/">Gold5472</a></p>
-
-
-    </itunes:summary>
-    <description>
-<p>Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the Playstation buttons.</p>
-<p>Other things we talk about:</p>
-<ul>
-  <li>Dongles</li>
-  <li>Bad usability prevents Americans from voting</li>
-  <li>How the hamburger menu is horrible</li>
-  <li>A urinal game</li>
-  <li>A building that injures people</li>
-  <li>A terrible robot shop assistant</li>
-  <li>A computer forces David into an encounter with a naked man</li>
-  <li>The origins of the Playstation buttons</li>
-  <li>Inclusive design</li>
-</ul>
-<p>Links mentioned:</p>
-<ul>
-  <li><a href="https://www.fastcompany.com/90281011/the-worst-design-crimes-of-2018">The worst design crimes of 2018)</a></li>
-  <li><a href="https://www.fastcompany.com/90168443/t-mobile-slapped-with-a-40-million-fine-for-its-deceptive-design">T-Mobile Slapped With A $40 Million Fine For Its Deceptive Design)</a></li>
-  <li><a href="https://www.nngroup.com/articles/hamburger-menu-vs-pizza/">Banish the Hamburger Menu, Adopt Pizza Menus</a></li>
-</ul>
-<p>The Unusable podcast is presented by Andrew Waite &amp; David Ball, who discuss the importance of user experience (UX) in technology &amp; the world around us, &amp; talk about great design that just works - or moan about it when it doesn't.</p>
-<p>Here's the link to the episode: <a href="https://podcast.theunusable.com/podcasts/008-design-crimes-from-2018.mp3">https://podcast.theunusable.com/podcasts/008-design-crimes-from-2018.mp3</a></p>
-<p>Music is by <a href="https://gold5472.newgrounds.com/">Gold5472</a></p>
-
-
-    </description>
+    <itunes:summary>Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the Playstation buttons</itunes:summary>
+    <description>Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the Playstation buttons</description>
     <link>https://podcast.theunusable.com/podcasts/008-design-crimes-from-2018/</link>
     <enclosure url="https://podcast.theunusable.com/podcasts/008-design-crimes-from-2018.mp3" type="audio/mpeg" length="0"></enclosure>
     <pubDate>11 Jan 2019 22:00:00 +0000</pubDate>
@@ -170,5 +120,6 @@
     <itunes:episode>008</itunes:episode>
     <guid>https://podcast.theunusable.com/podcasts/008-design-crimes-from-2018/</guid>
 </item>
+
 </channel>
 </rss>
