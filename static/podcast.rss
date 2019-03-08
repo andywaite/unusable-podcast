@@ -120,6 +120,22 @@
     <itunes:episode>008</itunes:episode>
     <guid>https://podcast.theunusable.com/podcasts/008-design-crimes-from-2018/</guid>
 </item>
-
+<item>
+    <title>Designing for failure</title>
+    <itunes:summary>
+    David &amp; Andrew discuss the importance of designing for failure &amp; making sure the problem is communicated to the user.
+    </itunes:summary>
+    <description>
+       David &amp; Andrew discuss the importance of designing for failure &amp; making sure the problem is communicated to the user.
+    </description>
+    <link>https://podcast.theunusable.com/podcasts/009-designing-for-failure/</link>
+    <enclosure url="https://podcast.theunusable.com/podcasts/009-designing-for-failure.mp3" type="audio/mpeg" length="0"></enclosure>
+    <pubDate>08 Mar 2019 18:00:00 +0000</pubDate>
+    <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
+    <itunes:duration>00:44:30</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:episode>009</itunes:episode>
+    <guid>https://podcast.theunusable.com/podcasts/009-designing-for-failure/</guid>
+</item>
 </channel>
 </rss>
