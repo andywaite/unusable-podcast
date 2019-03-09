@@ -22,7 +22,9 @@ Links mentioned:
 <li>https://netflix.github.io/chaosmonkey/</li>
 <li>https://uxplanet.org/how-to-write-a-perfect-error-message-da1ca65a8f36</li>
 <li>https://blog.usejournal.com/design-states-weve-been-totally-forgetting-79fcf22c88a3</li>
-<ul>
+<li> [Understanding website performance](https://www.tribeuk.co.uk/blog/understanding-website-performance) </li>
+
+</ul>
 
 The Unusable podcast is presented by Andrew Waite & David Ball, who discuss the importance of user experience (UX) in technology & the world around us, & talk about great design that just works - or moan about it when it doesn't.
 
