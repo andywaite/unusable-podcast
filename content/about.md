@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About the podcast"
 date: 2018-02-13T13:42:49-05:00
 description: "About the Unusable Podcast"
 ---

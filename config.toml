@@ -24,9 +24,9 @@ pygmentsCodefences      = true
 
 [[params.mainMenu]]
     link = "/podcasts"
-    text = "podcasts"
+    text = "The podcasts"
 
 [[params.mainMenu]]
     link = "/about"
-    text = "what is this?"
+    text = "About the podcast"
     
