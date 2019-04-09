@@ -22,3 +22,4 @@ To add a new episode:
 - Upload video version to Youtube & add the end links
 
 Guide for creating a video
+
