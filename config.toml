@@ -1,7 +1,7 @@
 baseurl                 = "https://podcast.theunusable.com/"               # Your domain name. Must end with "/"
 languageCode            = "en-gb"
 title                   = "The Unusable Podcast"
-theme                   = "hugo-theme-sam"
+theme                   = "hugo-sam"
 pygmentsStyle           = "manni"                     # https://help.farbox.com/pygments.html
 pygmentsCodefences      = true
 # googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
