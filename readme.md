@@ -18,8 +18,9 @@ To add a new episode:
 - Run command "hugo" to build the site.
 - Commit and push
 - Check feed is valid with http://castfeedvalidator.com/ & https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fpodcast.theunusable.com%2Fpodcast.rss
-- Create a video version in iMovie, fade to black 20 seconds before.
-- Upload video version to Youtube & add the end links
+
 
 Guide for creating a video
-
+- Create a video version in iMovie, fade to black 20 seconds before.
+- Upload video version to Youtube & add the description from the page
+- Add the end links 

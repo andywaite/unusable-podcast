@@ -137,5 +137,22 @@
     <itunes:episode>009</itunes:episode>
     <guid>https://podcast.theunusable.com/podcasts/009-designing-for-failure/</guid>
 </item>
+<item>
+    <title>Accessibility benefits everyone</title>
+    <itunes:summary>
+    In this podcast we discuss using technology with different types of disabilities &amp; how designing for accessibility benefits everyone. We also talk about voice UI for the elderly, &amp; Andy has a terrible experience in a bank.
+    </itunes:summary>
+    <description>
+       In this podcast we discuss using technology with different types of disabilities &amp; how designing for accessibility benefits everyone. We also talk about voice UI for the elderly, &amp; Andy has a terrible experience in a bank.
+        </description>
+    <link>https://podcast.theunusable.com/podcasts/010-a11y-benefits-everyone/</link>
+    <enclosure url="https://podcast.theunusable.com/podcasts/010-a11y-benefits-everyone.mp3" type="audio/mpeg" length="0"></enclosure>
+    <pubDate>10 Apr 2019 17:30:00 +0000</pubDate>
+    <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
+    <itunes:duration>00:57:00</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:episode>010</itunes:episode>
+    <guid>https://podcast.theunusable.com/podcasts/010-a11y-benefits-everyone/</guid>
+</item>
 </channel>
 </rss>
