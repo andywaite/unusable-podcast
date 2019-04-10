@@ -23,7 +23,7 @@ Links mentioned:
 <li>[Silktide's screen reader simulator](https://chrome.google.com/webstore/detail/silktide-screen-reader-si/okcpiimdfkpkjcbihbmhppldhiebhhaf)</li>
 <li>[Blind girl hacks - Alisha's Guide](https://www.youtube.com/watch?v=dD9z7Covu0U)</li>
 <li>[How many people in the UK have sight loss?](https://www.sightadvicefaq.org.uk/newly-diagnosed-registration/registering-sight-loss/statistics)</li>
-<li>[Jane Hu's tweet]()</li>
+<li>[Jane Hu's tweet](https://twitter.com/hujane/status/1089380484579127296)</li>
 </ul>
 
 The Unusable podcast is presented by Andrew Waite & David Ball, who discuss the importance of user experience (UX) in technology & the world around us, & talk about great design that just works - or moan about it when it doesn't.
