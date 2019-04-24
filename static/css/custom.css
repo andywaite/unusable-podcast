@@ -3,3 +3,17 @@
     height: auto;
     margin-bottom: 2rem;
 }
+
+.podcast-badges {
+    padding-top: 2rem;
+}
+
+.podcast-badges a {
+    border-bottom: none;
+    margin-right: 1rem;
+}
+
+.podcast-badges a img {
+    height: 2rem;
+    width: auto;
+}
