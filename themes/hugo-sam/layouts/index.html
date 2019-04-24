@@ -7,6 +7,8 @@
     <body>
         <div class="section" id="splash">
 
+            <img src="logo.png" class="logo" alt="The Unusable Podcast" />
+
             {{ if .Site.Params.mainMenu }}
                 {{ range .Site.Params.mainMenu }}
                     <div class="big-link">
@@ -25,7 +27,6 @@
                     </div>
                 {{ end }}
             {{ end }}
-            
         </div>
     </body>
 </html>
