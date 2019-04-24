@@ -11,6 +11,8 @@
 .podcast-badges a {
     border-bottom: none;
     margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
 }
 
 .podcast-badges a img {
