@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{ partial "head.html" . }}
+    <title>{{ .Title }}</title>
+</head>
+<body>
+<div class="section" id="splash">
+
+    <img src="logo.png" class="logo" alt="The Unusable Podcast" />
+
+    {{ if .Site.Params.mainMenu }}
+    {{ range .Site.Params.mainMenu }}
+    <div class="big-link">
+        <a href="{{.link}}">
+            {{.text}}
+        </a>
+    </div>
+    {{ end }}
+
+    {{ else }}
+    {{ range .Site.Sections }}
+    <div class="big-link">
+        <a href="{{.Permalink}}">
+            {{.Title}}
+        </a>
+    </div>
+    {{ end }}
+    {{ end }}
+
+    <div class="podcast-badges">
+        <a href="https://podcasts.apple.com/us/podcast/unusable-podcast-ux-usability/id1412835387">
+            <img src="/apple-podcast-logo.svg" alt="Listen on Apple Podcasts" />
+        </a>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0LnRoZXVudXNhYmxlLmNvbS9wb2RjYXN0LnJzcw%3D%3D">
+            <img src="/google-podcast-logo.svg" alt="Listen on Google Podcasts" />
+        </a>
+        <a href="https://open.spotify.com/show/2uFEwKPKirIrhWowfgASOl">
+            <img src="/spotify-podcast-logo.svg" alt="Listen on Spotify" />
+        </a>
+        <a href="https://twitter.com/unusablepodcast?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-dnt="true" data-show-count="false">Follow @unusablepodcast</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
+
+
+
+</div>
+</body>
+</html>

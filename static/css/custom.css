@@ -1,0 +1,21 @@
+.logo {
+    width: 15rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.podcast-badges {
+    padding-top: 2rem;
+}
+
+.podcast-badges a {
+    border-bottom: none;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.podcast-badges a img {
+    height: 28px;
+    width: auto;
+}
