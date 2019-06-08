@@ -1,11 +1,12 @@
 ---
-title: "011 Self Checkouts Online Shopping"
+title: "011 Self-checkouts & Online Shopping"
 date: 2019-06-08T17:28:58+01:00
 description: "We discuss the Queen going to the shops, or something."
 ---
 
 
 We discuss the Queen going shopping & being shown how self-checkouts work, & we discuss their advantages & annoyances. Also Andy has a story about a lame practical joke on a teacher using his Tesco club card.  
+Apologies for the terrible German at the beginning!
 
 
 Other things we talk about:
