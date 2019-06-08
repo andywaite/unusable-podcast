@@ -23,6 +23,7 @@ Other things we talk about:
 
 Links mentioned:
 <ul>
+<li>['You can't cheat?' asks Queen at check-out](https://www.bbc.co.uk/news/av/uk-48375000/you-can-t-cheat-asks-queen-at-check-out)</li>
 <li>[What is Amazon Go, where is it, and how does it work?](https://www.pocket-lint.com/phones/news/amazon/139650-what-is-amazon-go-where-is-it-and-how-does-it-work)</li>
 <li>[Six ecommerce UX trends for 2019](https://www.userzoom.com/blog/ecommerce-ux-trends-2019/)</li>
 <li>[2019 Trends in UX for Ecommerce Websites](https://qubstudio.com/blog/2019-trends-in-ux-for-ecommerce-websites/)</li>
