@@ -32,6 +32,6 @@ Links mentioned:
 
 The Unusable podcast is presented by Andrew Waite & David Ball, who discuss the importance of user experience (UX) in technology & the world around us, & talk about great design that just works - or moan about it when it doesn't.
 
-Here's the link to the episode: https://podcast.theunusable.com/podcasts/012-sound-design-in-ux.mp3
+Here's the link to the episode: https://podcast.theunusable.com/podcasts/012-sound-design-ux.mp3
 
 Music is by [Gold5472](https://gold5472.newgrounds.com/)
