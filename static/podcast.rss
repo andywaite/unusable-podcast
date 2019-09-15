@@ -192,5 +192,23 @@
     <itunes:episode>012</itunes:episode>
     <guid>https://podcast.theunusable.com/podcasts/012-sound-design-in-ux/</guid>
 </item>
+<item>
+    <title>UX Writing &amp; Microcopy</title>
+    <itunes:summary>
+    David and Andrew talk about UX writing and try to answer why it's different to copywriting, and what microcopy is. They also discuss annoying browser notifications, a more sensible way for asking to set cookies, and why opening a japanese soda is difficult.
+
+    </itunes:summary>
+    <description>
+       David and Andrew talk about UX writing and try to answer why it's different to copywriting, and what microcopy is. They also discuss annoying browser notifications, a more sensible way for asking to set cookies, and why opening a japanese soda is difficult.
+       </description>
+    <link>https://podcast.theunusable.com/podcasts/013-ux-writing-microcopy/</link>
+    <enclosure url="https://podcast.theunusable.com/podcasts/013-ux-writing-microcopy.mp3" type="audio/mpeg" length="0"></enclosure>
+    <pubDate>10 Sep 2019 18:30:00 +0000</pubDate>
+    <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
+    <itunes:duration>00:53:29</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:episode>013</itunes:episode>
+    <guid>https://podcast.theunusable.com/podcasts/012-sound-design-in-ux/</guid>
+</item>
 </channel>
 </rss>
