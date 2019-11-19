@@ -1,10 +1,10 @@
 ---
 title: "014 The Internet Is Terrible Now"
 date: 2019-11-19T20:22:11Z
-description: "Andrew &amp; David discuss what makes the internet terrible now, like slow websites, browser inconsistencies, monopolisation &amp; stupid people."
+description: "Andrew &amp; David discuss what makes the internet terrible now, like slow websites, browser inconsistencies, monopolisation &amp; people."
 ---
 
-Andrew &amp; David discuss what makes the internet terrible now, like slow websites, browser inconsistencies, monopolisation &amp; stupid people. 
+Andrew &amp; David discuss what makes the internet terrible now, like slow websites, browser inconsistencies, monopolisation &amp; people. 
 
 Other things we talk about:
 <ul>
