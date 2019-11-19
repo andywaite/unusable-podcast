@@ -17,10 +17,11 @@ To add a new episode:
 - Edit static/podcasts/podcast.rss - add new item
 - Run command "hugo" to build the site.
 - Commit and push
+- Copy rendered HTML from live page and add to feed. Then commit and push again.
 - Check feed is valid with http://castfeedvalidator.com/ & https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fpodcast.theunusable.com%2Fpodcast.rss
 
 
 Guide for creating a video
-- Create a video version in iMovie, fade to black 20 seconds before.
-- Upload video version to Youtube & add the description from the page
-- Add the end links 
+- Create a video version in iMovie, fade to black 20 seconds before end.
+- Upload video version to Youtube & add the description from the page, including links
+- Add the end links in Youtube
