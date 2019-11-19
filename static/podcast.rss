@@ -272,5 +272,52 @@
     <itunes:episode>013</itunes:episode>
     <guid>https://podcast.theunusable.com/podcasts/013-ux-writing-microcopy/</guid>
 </item>
+<item>
+    <title>The Internet Is Terrible Now!</title>
+    <itunes:summary>
+    Andrew &amp; David discuss what makes the internet terrible now, like slow websites, browser inconsistencies, monopolisation &amp; stupid people.
+    </itunes:summary>
+    <description><![CDATA[
+       <p>Andrew &amp; David discuss what makes the internet terrible now, like slow websites, browser inconsistencies, monopolisation &amp; stupid people. Other things we talk about:</p>
+
+       <ul>
+       <li>Are URLs are too confusing for some people?</li>
+       <li>Average size of a webpage (compared to Sonic the hedgehog)s</li>
+       <li>Andy's old crap Acorn computers are more efficient than todays</li>
+       <li>Flash was fun but websites are more usable without it</li>
+       <li>Parking machine app</li>
+       <li>Crap digital school attendance register</li>
+       <li>Hospital alarm fatigue &amp; Andy's favourite song is ruined</li>
+       <li>Constant flood updates</li>
+
+
+       </ul>
+
+       <p>Links mentioned:
+       </p><ul>
+       <li>[The Spirit Of The Internet](https://www.theawl.com/2016/11/the-spirit-of-the-internet/)</li>
+       <li>[Browser engine diversity](https://css-tricks.com/browser-engine-diversity/)</li>
+       <li>[The Revenge of the IE Box Model?](https://www.jefftk.com/p/the-revenge-of-the-ie-box-model)</li>
+       <li>[False Alarms & Alert Fatigue: The Tragic Design of Hospital Alerts](https://medium.com/@kellynstandley/false-alarms-emotional-overwhelm-the-tragic-design-of-hospital-alerts-fa7d7a78c201)</li>
+
+       </ul><p></p>
+
+       <p>The Unusable podcast is presented by Andrew Waite &amp; David Ball, who discuss the importance of user experience (UX) in technology &amp; the world around us, &amp; talk about great design that just works - or moan about it when it doesn’t.</p>
+
+       <p>Here’s the link to the episode: <a href="https://podcast.theunusable.com/podcasts/014-internet-is-terrible-now.mp3">https://podcast.theunusable.com/podcasts/014-internet-is-terrible-now.mp3</a></p>
+
+       <p>Music is by <a href="https://gold5472.newgrounds.com/">Gold5472</a></p>
+
+        ]]>
+       </description>
+    <link>https://podcast.theunusable.com/podcasts/013-ux-writing-microcopy/</link>
+    <enclosure url="https://podcast.theunusable.com/podcasts/014-internet-is-terrible-now.mp3" type="audio/mpeg" length="0"></enclosure>
+    <pubDate>19 Nov 2019 20:30:00 +0000</pubDate>
+    <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
+    <itunes:duration>00:50:12</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:episode>014</itunes:episode>
+    <guid>https://podcast.theunusable.com/podcasts/014-the-internet-is-terrible-now/</guid>
+</item>
 </channel>
 </rss>
