@@ -6,6 +6,11 @@ description: "Unusable Podcast YouTube videos"
 
 Here's a collection of our videos. To see the latest, [visit our YouTube](https://www.youtube.com/channel/UCxdO6AuYHzWyjEws2_A2xqA) (remember to like & subscribe!).
 
+<!-- ceiling fan -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DwrErZcoPk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <!-- urinal -->
 <div class="video">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tQgV6sYbLe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
