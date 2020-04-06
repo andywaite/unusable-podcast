@@ -47,19 +47,40 @@ body {
     color: #fff;
 }
 
-#sprd-main .sprd-header__image:after {
-    background-image: url("/shop/shop-logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100px;
-    width: 400px;
-    display: block;
-    content: "";
-    margin: 0 auto;
+@media screen and (min-width: 1000px) {
+    #sprd-main .sprd-header__image:after {
+        background-image: url("/shop/shop-logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 400px;
+        display: block;
+        content: "";
+        margin: 0 auto;
+    }
+}
+
+.sprd-header__burgerbutton__bar.sprd-bg-s3 {
+    background-color: #fff;
 }
 
 #sprd-main .sprd-header__image img {
     display: none;
+}
+
+#sprd-main .sprd-burgermenu__title img {
+    display: none;
+}
+
+#sprd-main .sprd-burgermenu__title:after {
+    background-image: url("/shop/shop-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    display: block;
+    content: "";
+    margin: 0 auto;
 }
 
 .sprd-detail-columns {
