@@ -4,9 +4,13 @@ body {
     color: #fff;
 }
 
-#sprd-main .sprd-c-s2,
-#sprd-main .sprd-bg-m3 {
+#sprd-main .sprd-product-list-item__sizes {
     background: transparent;
+}
+
+#sprd-main .sprd-listpage {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #buttonSpreadshirt {
@@ -23,4 +27,41 @@ body {
 }
 
 #sprd-main .sprd-bg-m1 {
+    background-color: #39424E;
+    color: #fff;
+}
+
+#sprd-main .sprd-navigation {
+    display: none;
+}
+
+#sprd-main .sprd-header__image {
+    margin-bottom: 45px;
+}
+
+#sprd-main .sprd-info-footer  {
+    padding-top: 40px;
+}
+
+#sprd-main .sprd-social-bar__link {
+    color: #fff;
+}
+
+#sprd-main .sprd-header__image:after {
+    background-image: url("/shop/shop-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 400px;
+    display: block;
+    content: "";
+    margin: 0 auto;
+}
+
+#sprd-main .sprd-header__image img {
+    display: none;
+}
+
+.sprd-detail-columns {
+    display: none !important;
 }
