@@ -7,6 +7,9 @@ Hugo theme is "Sam": https://themes.gohugo.io/hugo-theme-sam/
 Run this to get theme files:
 git submodule update --init --recursive
 
+Run this to preview locally: 
+hugo serve -t hugo-sam
+
 To add a new episode:
 - Add the mp3 file to static/podcasts - Commit and push, then get url to show Andy
 - hugo new podcasts/004-whatever.md

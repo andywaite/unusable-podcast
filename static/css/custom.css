@@ -19,3 +19,19 @@
     height: 28px;
     width: auto;
 }
+
+.video {
+    margin-bottom: 3rem !important;
+    height: 0 !important;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
