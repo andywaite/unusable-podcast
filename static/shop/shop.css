@@ -1,0 +1,26 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #39424E;
+    color: #fff;
+}
+
+#sprd-main .sprd-c-s2,
+#sprd-main .sprd-bg-m3 {
+    background: transparent;
+}
+
+#buttonSpreadshirt {
+    display: none;
+}
+
+.sprd__headline {
+    display: none;
+}
+
+#sprd-main .sprd-product-list-item--hover {
+    border: none;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#sprd-main .sprd-bg-m1 {
+}
