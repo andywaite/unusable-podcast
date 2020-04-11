@@ -80,3 +80,8 @@ Here's a collection of our videos. To see the latest, [visit our YouTube](https:
 <div class="video">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Yy9q3CkznRU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<!-- confirm shaming -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SIkqDGfEXjo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
