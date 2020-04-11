@@ -35,6 +35,10 @@ pygmentsCodefences      = true
     text = "Shop"
 
 [[params.mainMenu]]
+    link = "https://www.patreon.com/unusablepodcast?fan_landing=true"
+    text = "Patreon"
+
+[[params.mainMenu]]
     link = "/about"
-    text = "About the podcast"
+    text = "About"
     
