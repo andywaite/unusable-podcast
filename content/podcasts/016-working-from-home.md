@@ -1,5 +1,5 @@
 ---
-title: "016 Drinking whisky & Working From Home"
+title: "016 Drinking Whisky & Working From Home"
 date: 2020-04-11T14:47:07+01:00
 ---
 
