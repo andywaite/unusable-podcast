@@ -6,6 +6,21 @@ description: "Unusable Podcast YouTube videos"
 
 Here's a collection of our videos. To see the latest, [visit our YouTube](https://www.youtube.com/channel/UCxdO6AuYHzWyjEws2_A2xqA) (remember to like & subscribe!).
 
+<!-- Naming things is difficult -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jEjvAaSQfmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- Andy coffee machine -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VBSDgFtSqO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- British plugs -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zos99LuL2DY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <!-- ceiling fan -->
 <div class="video">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/DwrErZcoPk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -49,4 +64,24 @@ Here's a collection of our videos. To see the latest, [visit our YouTube](https:
 <!-- Bug buster -->
 <div class="video">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/p3f63t8gAVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- writing tablet -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/U_kanTrft54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- laundry symbols -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0VEo5v3GlKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- poor UX -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yy9q3CkznRU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- confirm shaming -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SIkqDGfEXjo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
