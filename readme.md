@@ -12,7 +12,7 @@ hugo serve -t hugo-sam
 
 To add a new episode:
 - Add the mp3 file to static/podcasts - Commit and push, then get url to show Andy
-- hugo new podcasts/004-whatever.md
+- hugo new podcasts/019-whatever.md
 - Remove draft:true from new page in content/podcasts
 - Make sure the new page is in git
 - Add: description: "lorem ipsum"
