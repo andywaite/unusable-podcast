@@ -1,6 +1,7 @@
 ---
 title: "017 Planned Obsolescence"
 date: 2020-05-17T16:50:51+01:00
+description: "Andrew & David discuss planned obsolescence"
 ---
 
 David &amp; Andrew discuss planned obsolescence, the practice of designing products to need replacing sooner to net the manufacturer more money. Is it a devious plot to get us all to spend more &amp; pollute the environment, or just technology progressing? In our Bad Usability Nightmare, Andrew collects meat from a pub car park.

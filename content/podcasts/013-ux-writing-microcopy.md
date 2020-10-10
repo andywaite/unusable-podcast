@@ -1,7 +1,7 @@
 ---
 title: "013 UX Writing & Microcopy"
 date: 2019-09-09T15:56:41+01:00
-description: We talk about UX writing and try to answer why it's different to copywriting, and what microcopy is
+description: "We talk about UX writing & try to answer why it's different to copywriting, & microcopy"
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: "016 Drinking Whisky & Working From Home"
 date: 2020-04-11T14:47:07+01:00
+description: "Andrew & David discuss video chatting using Zoom & Skype"
 ---
 
 Being forced to work from home due to coronavirus, Andrew & David discuss video chatting using Zoom & Skype, & then the rigmarole of getting things delivered. 
