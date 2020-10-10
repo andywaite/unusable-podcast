@@ -1,13 +1,13 @@
 ---
 number: "019"
-title: "Hicks Law"
+title: "Hick's Law"
 date: 2020-10-10T12:18:16+01:00
-description: "Static website generators, & keeping things simple"
+description: "What is Hick's Law? In this episode we discuss static website generators, & keeping things simple."
 mp3: "019-hicks-law.mp3"
 duration: 00:43:26
 ---
 
-What is Hicks Law? In this episode we discuss static website generators, & keeping things simple. 
+What is Hick's Law? In this episode we discuss static website generators, & keeping things simple. 
 
 Other things we talk about:
  - Wizards
