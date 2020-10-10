@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "name" : "{{ metadata.title }}",
+        "url" : "{{ metadata.url }}",
+        "sameAs" : [
+            {% assign socialsArray = socials | toarray %}
+            {% assign sameAs = platforms | concat: socialsArray %}
+            {% for platform in sameAs %}
+                "{{ platform.url }}"{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+        ]
+    }
+</script>

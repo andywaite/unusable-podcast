@@ -2,14 +2,20 @@
     {
         "@context": "https://schema.org/",
         "@type": "PodcastSeries",
-        "image": "https://www.relay.fm/inquisitive_artwork.png",
-        "url": "{{ url }}",
+        "image": "https://{{ metadata.url }}cover.jpg",
+        "url": "{{ metadata.url }}",
         "name": "{{ metadata.title }}",
-        "description": "Inquisitive is a show for the naturally curious. Each week, Myke Hurley takes a look at what makes creative people successful and what steps they have taken to get there.",
+        "description": "{{ metadata.description }}",
         "webFeed": "{{ metadata.url }}{{ metadata.rss }}",
-        "author": {
-            "@type": "Person",
-            "name": "Andrew Waite"
-        }
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Andrew Waite"
+            },
+            {
+                "@type": "Person",
+                "name": "David Ball"
+            }
+        ]
     }
 </script>

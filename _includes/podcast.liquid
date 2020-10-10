@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% include schema/episode.liquid %}
+    {% include schema/org.liquid %}
     {% include schema/podcast.liquid %}
     {% include blocks/head.liquid %}
 </head>
 <body class="d-flex flex-column">
     {% assign episodeNumber = "Episode " | append: number  %}
     {% assign image = "podcasts/" | append:number | append:".jpg" %}
-    {% include blocks/header.liquid, subtitle: episodeNumber, image: image  %}
+    {% include blocks/header.liquid, subtitle: episodeNumber, image: image, podcastDate: date  %}
     <main class="flex-fill">
         {% include blocks/podcast.liquid %}
     </main>

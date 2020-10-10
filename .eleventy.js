@@ -1,6 +1,8 @@
+const { DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyConfig) {
+    // Files we just copy through
     eleventyConfig.setTemplateFormats([
         "md",
         "css",
@@ -8,6 +10,25 @@ module.exports = function(eleventyConfig) {
         'mp3'
     ]);
 
+    // Static files to root
+    eleventyConfig.addPassthroughCopy({ "static": "/" });
+
+    // Take podcast time like 00:32:12 (used in RSS) and turn it into an interval like PT32M (used in schema)
+    eleventyConfig.addFilter("timeToInterval", time => {
+        return "PT" + (time.split(":")[1]) + "M";
+    });
+
+    // Date formatting (human readable)
+    eleventyConfig.addFilter("readableDate", dateObj => {
+        return DateTime.fromJSDate(dateObj).toFormat("LLLL dd, yyyy");
+    });
+
+    // Date formatting (machine readable)
+    eleventyConfig.addFilter("machineDate", dateObj => {
+        return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
+    });
+
+    // Process image tags
     eleventyConfig.addShortcode("image", async (src, alt, className) => {
         if (!alt) {
             alt = "";
@@ -48,6 +69,7 @@ module.exports = function(eleventyConfig) {
         return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`;
     });
 
+    // Process CSS image backgrounds
     eleventyConfig.addShortcode("bgimg", async (src) => {
 
         let stats = await Image(src, {
@@ -62,11 +84,12 @@ module.exports = function(eleventyConfig) {
         return `${lowestSrc.url}`;
     });
 
-
+    // Limit size of array
     eleventyConfig.addFilter("limit", function(value, limit) {
         return value.slice(0, limit);
     });
 
+    // Convert object to array
     eleventyConfig.addFilter("toarray", function(value) {
         return Object.values(value);
     });

@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "PodcastEpisode",
+        "url": "{{ page.url }}",
+        "name": "{{ number }} - {{ title }}",
+        "datePublished": "{{ date | machineDate }}",
+        "timeRequired": "{{ duration | timeToInterval }}",
+        "description": "{{ description }}",
+        "associatedMedia": {
+            "@type": "MediaObject",
+            "contentUrl": "{{ metadata.url }}podcasts/{{ mp3 }}"
+        },
+        "partOfSeries": {
+            "@type": "PodcastSeries",
+            "name": "{{ metadata.title }}",
+            "url": "{{ metadata.url }}"
+        }
+    }
+</script>

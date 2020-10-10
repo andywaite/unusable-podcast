@@ -4,7 +4,12 @@
         <div class="row hero align-items-end">
             <div class="col-lg-6 mx-auto text-center">
                 <h1>{{ title }}</h1>
-                <p>{{ subtitle }}</p>
+                <p>
+                    {{ subtitle }}
+                    {% if podcastDate %}
+                        - <time datetime="{{ podcastDate | machineDate }}">{{ podcastDate | readableDate }}</time>
+                    {% endif %}
+                </p>
             </div>
         </div>
     </div>
