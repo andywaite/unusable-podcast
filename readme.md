@@ -12,7 +12,6 @@ This is the new 2020 version, now using Eleventy. There is plenty still to do:
  - Add date to podcast episode & episodes page
  - Fix styling on mobile
  - Check link hover states
- - 
  - Shop page
  - Videos page
  - Make sure static files get copied over, and make sense (e.g. favicon)
