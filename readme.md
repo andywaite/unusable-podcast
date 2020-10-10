@@ -20,7 +20,7 @@ This is the new 2020 version, now using Eleventy. There is plenty still to do:
  - Live video feed from Youtube (?)
  - ~~Make sure static files get copied over, and make sense (e.g. favicon)~~
  - ~~Sitemap generation~~
- - Podcast feed generation
+ - ~~Podcast feed generation~~
  - Optimise / check in Lighthouse etc
 
 
