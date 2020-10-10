@@ -5,3 +5,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }} - Unusable Podcast</title>
+{% if description %}<meta name="description" content="{{ description }}">{% endif %}
+
+<!-- START ICONS ETC -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=m2LG87PmQQ">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=m2LG87PmQQ">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=m2LG87PmQQ">
+<link rel="manifest" href="/site.webmanifest?v=m2LG87PmQQ">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=m2LG87PmQQ" color="{{ metadata.colours.highlight }}">
+<link rel="shortcut icon" href="/favicon.ico?v=m2LG87PmQQ">
+<meta name="msapplication-TileColor" content="{{ metadata.colours.highlight }}">
+<meta name="theme-color" content="{{ metadata.colours.highlight }}">
+<!-- END ICONS ETC -->
+
+<!-- START OG -->
+<meta name="og:type" content="website">
+<meta name="og:title" content="{{ title }}">
+{% if description %}
+    <meta name="og:description" content="{{ description }}">
+{% else %}
+    <meta name="og:description" content="The Unusable Podcast - Discussions about the importance of usability &amp; UX">
+{% endif %}
+<meta name="og:url" content="{{ page.url }}">
+<meta name="og:image" content="{{ metadata.url }}cover.jpg">
+<meta property="og:locale" content="en_GB" />
+<!-- END OG -->
