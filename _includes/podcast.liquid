@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include schema/podcast.liquid %}
+    {% include blocks/head.liquid %}
+</head>
+<body class="d-flex flex-column">
+    {% assign episodeNumber = "Episode " | append: number  %}
+    {% assign image = "podcasts/" | append:number | append:".jpg" %}
+    {% include blocks/header.liquid, subtitle: episodeNumber, image: image  %}
+    <main class="flex-fill">
+        {% include blocks/podcast.liquid %}
+    </main>
+    {% include blocks/footer.liquid %}
+</body>
+</html>

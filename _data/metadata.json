@@ -1,0 +1,13 @@
+{
+  "title": "The Unusable Podcast",
+  "url": "https://podcast.theunusable.com/",
+  "siteUrl": "https://podcast.theunusable.com",
+  "email": "podcast@theunusable.com",
+  "rss": "podcast.rss",
+  "description": "The Unusable podcast is presented by Andrew Waite & David Ball, who discuss the importance of user experience (UX) in technology & the world around us, & talk about great design that just works - or moan about it when it doesn't.",
+  "author": {
+    "name": "Andrew Waite",
+    "email": "podcast@theunusable.com",
+    "github": "https://github.com/andywaite"
+  }
+}

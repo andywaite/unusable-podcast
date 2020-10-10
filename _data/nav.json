@@ -1,0 +1,18 @@
+{
+  "home": {
+    "path": "/",
+    "label": "Home"
+  },
+  "episodes": {
+    "path": "/podcasts/",
+    "label": "Episodes"
+  },
+  "videos": {
+    "path": "/videos/",
+    "label": "Videos"
+  },
+  "shop": {
+    "path": "/shop/",
+    "label": "Shop"
+  }
+}

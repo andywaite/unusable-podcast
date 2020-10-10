@@ -1,0 +1,84 @@
+@import "variables";
+
+/**
+ *
+ * GENERIC
+ *
+ */
+
+body {
+  min-height:100vh;
+}
+
+a {
+  color: $text-colour-light;
+  text-decoration: underline;
+
+  &:hover {
+    color: $brand-colour-highlight;
+    text-decoration: none;
+  }
+}
+
+.flex-fill {
+  flex:1 1 auto;
+}
+
+.unusable__highlight-text {
+  color: $brand-colour-highlight;
+}
+
+.unusable__highlight {
+  background-color: $brand-colour-highlight;
+
+  a {
+    &:hover {
+      color: $full-white;
+    }
+  }
+}
+
+.unusable__dark {
+  background-color: $brand-colour-dark;
+  color: $text-colour-dark;
+
+  a {
+    color: $text-colour-dark;
+
+    &:hover {
+      color: $brand-colour-highlight;
+    }
+  }
+}
+
+.unusable__underline {
+  background: linear-gradient(0deg, rgba(255,0,0,0) 14%, $brand-colour-highlight 14%, $brand-colour-highlight 30%, rgba(233,233,233,0) 30%);
+}
+
+.unsable__highlight {
+  color: $brand-colour-highlight;
+}
+
+.unusable__block {
+  padding: 90px 0;
+  h2 {
+    padding: 0 0 60px;
+  }
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+/**
+BODY
+ */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $brand-colour-light;
+  color: $text-colour-light;
+}
+
+@import "blocks";
+@import "components";

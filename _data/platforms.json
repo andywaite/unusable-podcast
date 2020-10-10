@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Spotify",
+    "url": "https://open.spotify.com/show/2uFEwKPKirIrhWowfgASOl"
+  },
+  {
+    "name": "iTunes",
+    "url": "https://podcasts.apple.com/gb/podcast/unusable-podcast-ux-usability/id1412835387"
+  },
+  {
+    "name": "Google Play",
+    "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0LnRoZXVudXNhYmxlLmNvbS9wb2RjYXN0LnJzcw?sa=X&ved=2ahUKEwj13-eJ7KXsAhVF04UKHZoIAU8Q9sEGegQIARAE"
+  },
+  {
+    "name": "Amazon Music",
+    "url": "https://music.amazon.co.uk/podcasts/ac20002f-53e9-4c05-be37-3a5a850e28a5/Unusable-podcast-UX-usability"
+  }
+]

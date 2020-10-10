@@ -1,0 +1,10 @@
+<div class="podcast-card">
+    <h3 class="podcast-card__title">{{ podcast.data.title }}</h3>
+    <p class="podcast-card__episode-number">
+        <span class="sr-only">Episode number </span>{{ podcast.data.number }}
+    </p>
+    {% assign image = "podcasts/" | append:podcast.data.number | append:".jpg" %}
+    {% image image, "", "podcast-card__image" %}
+    <p class="podcast-card__description">{{ podcast.data.description }}</p>
+    <a href="{{ podcast.url }}" class="podcast-card__link"><span class="sr-only">{{ podcast.data.title }}</span></a>
+</div>

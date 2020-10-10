@@ -1,0 +1,26 @@
+<!-- START OUR LATEST EPISODES -->
+<div class="podcast-episodes unusable__block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Our latest <span class="unusable__underline">podcast episodes</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            {% assign podcasts = collections.podcast | reverse | limit:3 %}
+            {% for podcast in podcasts %}
+                <div class="col-md-4">
+                    {% include components/episode.liquid with podcast %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                {% include components/primary_button.liquid, link: "/podcasts", label: "See all episodes" %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OUR LATEST EPISODES -->
