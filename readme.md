@@ -15,7 +15,7 @@ This is the new 2020 version, now using Eleventy. There is plenty still to do:
  - Shop page
  - Videos page
  - Make sure static files get copied over, and make sense (e.g. favicon)
- - Sitemap generation
+ - ~~Sitemap generation~~
  - Podcast feed generation
  - Optimise / check in Lighthouse etc
 

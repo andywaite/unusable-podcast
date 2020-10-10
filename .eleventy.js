@@ -28,6 +28,11 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
     });
 
+    // Date formatting (ISO)
+    eleventyConfig.addFilter("isoDate", dateObj => {
+        return DateTime.fromJSDate(dateObj).toISO();
+    });
+
     // Process image tags
     eleventyConfig.addShortcode("image", async (src, alt, className) => {
         if (!alt) {
