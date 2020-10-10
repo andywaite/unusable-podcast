@@ -1,11 +1,29 @@
 const { DateTime } = require("luxon");
+const htmlmin = require("html-minifier");
 const Image = require("@11ty/eleventy-img");
+const sass = require('./styles/sass-processor');
 
 module.exports = function(eleventyConfig) {
+
+    //Watching for modifications in style directory
+    sass('./styles/styles.scss', './_site/styles/styles.css');
+
+    // Minify HTML
+    eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+        if( outputPath.endsWith(".html") ) {
+            return htmlmin.minify(content, {
+                useShortDoctype: true,
+                removeComments: true,
+                collapseWhitespace: true
+            });
+        }
+
+        return content;
+    });
+
     // Files we just copy through
     eleventyConfig.setTemplateFormats([
         "md",
-        "css",
         'liquid',
         'mp3'
     ]);

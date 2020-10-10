@@ -6,7 +6,7 @@ Podcast feed: https://podcast.theunusable.com/podcast.rss
 
 This is the new 2020 version, now using Eleventy. There is plenty still to do:
 
- - Make SCSS generation happen on build rather than using a watcher in IDE
+ - ~~Make SCSS generation happen on build rather than using a watcher in IDE~~
  - ~~Finish adding schema data / ld+json~~
  - ~~Add og tags~~
  - ~~Add date to podcast episode & episodes page~~
