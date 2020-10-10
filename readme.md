@@ -11,6 +11,9 @@ This is the new 2020 version, now using Eleventy. There is plenty still to do:
  - ~~Add og tags~~
  - ~~Add date to podcast episode & episodes page~~
  - Fix styling on mobile
+ - Explained section link on homepage is invisible
+ - Explained section doesn't work
+ - Explained section doesn't have content
  - Check link hover states
  - Shop page
  - Videos page
