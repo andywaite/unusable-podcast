@@ -211,6 +211,8 @@ PODCAST SHOP
  */
 .podcast-shop {
 
+  border-bottom: 1px solid #e7e7e7;
+
   h2 {
     padding-bottom: 20px;
   }
@@ -241,13 +243,14 @@ VIDEOS
 .video-carousel {
 
   h2 {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   .btn {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   iframe {
+    margin-top: 60px;
     border-radius: 5px;
     width: 100%;
     height: 200px;

@@ -1,0 +1,17 @@
+---
+layout: shop.liquid
+title: Unusable videos
+---
+{% include blocks/header.liquid, subtitle: "If you like our podcast, you might also like these videos we make.", link: socials.youtube.url, label: "Watch on YouTube" %}
+<main class="flex-fill">
+    <div class="container unusable__block video-carousel">
+        <div class="row">
+            {% for video in videos %}
+                <div class="col-md-4">
+                    <iframe src="https://www.youtube-nocookie.com/embed/{{ video.id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</main>
+{% include blocks/footer.liquid %}

@@ -4,7 +4,6 @@ const path = require('path');
 
 module.exports = (scssPath, cssPath) => {
 
-    console.log("I'm here");
     //If cssPath directory doesn't exist...
     if(!fs.existsSync(path.dirname(cssPath))) {
         //Encapsulate rendered css from scssPath into result variable

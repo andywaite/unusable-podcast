@@ -10,6 +10,11 @@
                         - <time datetime="{{ podcastDate | machineDate }}">{{ podcastDate | readableDate }}</time>
                     {% endif %}
                 </p>
+                {% if link and label %}
+                    <p>
+                        {% include components/secondary_button.liquid, link: link, label: label %}
+                    </p>
+                {% endif %}
             </div>
         </div>
     </div>
