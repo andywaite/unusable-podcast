@@ -21,6 +21,7 @@ This is the new 2020 version, now using Eleventy. There is plenty still to do:
  - ~~Make sure static files get copied over, and make sense (e.g. favicon)~~
  - ~~Sitemap generation~~
  - ~~Podcast feed generation~~
+ - Custom 404
  - Optimise / check in Lighthouse etc
 
 
