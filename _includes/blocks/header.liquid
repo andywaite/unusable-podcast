@@ -1,6 +1,6 @@
 <header class="unusable__dark unusable__header"{% if image %} style="background: linear-gradient( rgba(34, 40, 64, 0.9), rgba(34, 40, 64, 0.9) ), url({% bgimg image %});"{% endif %}>
     <div class="container">
-        {% include blocks/nav.liquid, dark: true %}
+        {% include blocks/nav.liquid, dark: dark %}
         <div class="row hero align-items-end">
             <div class="col-lg-6 mx-auto text-center">
                 <h1>{{ title }}</h1>

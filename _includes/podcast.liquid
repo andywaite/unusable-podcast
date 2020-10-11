@@ -9,7 +9,7 @@
 <body class="d-flex flex-column">
     {% assign episodeNumber = "Episode " | append: number  %}
     {% assign image = "podcasts/" | append:number | append:".jpg" %}
-    {% include blocks/header.liquid, subtitle: episodeNumber, image: image, podcastDate: date  %}
+    {% include blocks/header.liquid, dark: true, subtitle: episodeNumber, image: image, podcastDate: date  %}
     <main class="flex-fill">
         {% include blocks/podcast.liquid %}
     </main>
