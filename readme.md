@@ -46,6 +46,7 @@ yarn dev
 - Edit text and make sure it makes sense
 - Make sure to include the link to the MP3 file
 - Find an image using unsplash and add it to `/podcasts`. Make sure it's a jpg, and named the same as the podcast number - e.g. 018.jpg
+- Note that images get optimised automatically, no need to worry about its size
 - Commit & push
 - Wait for site to go live
 - Check it's legit
