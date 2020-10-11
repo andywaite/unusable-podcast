@@ -112,15 +112,14 @@ PODCAST CARD
   }
 
   &__title {
-    order: 0;
+    order: 10;
     padding: 20px 0 5px;
     font-size: 1.2rem;
-    min-height: 3.8em;
     display: block;
   }
 
   .image-wrapper {
-    order: -1;
+    order: -10;
 
     img {
       width: 100%;
@@ -132,6 +131,7 @@ PODCAST CARD
   }
 
   &__description {
+    order: 30;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 5;
@@ -148,5 +148,46 @@ PODCAST CARD
     position: absolute;
     top: 0;
     border-radius: 5px 0 5px 0;
+  }
+
+  &__stats {
+    order: 20;
+  }
+
+  &__label {
+    text-indent: -10000px;
+    background-image: url(/images/podcast-sprite.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  &__date,
+  &__duration {
+    text-transform: uppercase;
+    color: #737373;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    width: 50%;
+    float: left;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+
+  &__date {
+    .podcast-card__label {
+      background-position: right;
+    }
+  }
+
+  &__duration {
+    .podcast-card__label {
+      background-position: left;
+    }
   }
 }

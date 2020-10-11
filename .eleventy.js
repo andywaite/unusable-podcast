@@ -31,9 +31,19 @@ module.exports = function(eleventyConfig) {
     // Static files to root
     eleventyConfig.addPassthroughCopy({ "static": "/" });
 
+    let timeToMinutes = function(time) {
+        let timeParts = time.split(":");
+        return (timeParts[0] * 60) - (-timeParts[1]) - (-Math.round(timeParts[2] / 60));
+    };
+
     // Take podcast time like 00:32:12 (used in RSS) and turn it into an interval like PT32M (used in schema)
     eleventyConfig.addFilter("timeToInterval", time => {
-        return "PT" + (time.split(":")[1]) + "M";
+        return "PT" + timeToMinutes(time) + "M";
+    });
+
+    // Take podcast time like 00:32:12 (used in RSS) and turn it into an interval like PT32M (used in schema)
+    eleventyConfig.addFilter("timeToMinutes", time => {
+        return timeToMinutes(time);
     });
 
     // Date formatting (human readable)
