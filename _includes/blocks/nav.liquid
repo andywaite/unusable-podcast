@@ -21,7 +21,7 @@
                     </li>
                 {% endif %}
             {% endfor %}
-            <li class="nav-item">
+            <li class="nav-item{% if page.url == '/podcasts' %} active{% endif %}">
                 {% include components/primary_button.liquid, link: "/podcasts", label: "Listen now" %}
             </li>
         </ul>

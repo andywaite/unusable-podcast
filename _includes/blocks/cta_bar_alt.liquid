@@ -1,0 +1,14 @@
+<!-- START CTA -->
+<div class="subscribe-cta subscribe-cta--alt unusable__dark">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            {% assign firstFourPlatforms = platforms | limit:4 %}
+            {% for platform in firstFourPlatforms %}
+            <div class="col-lg-2">
+                {% include components/secondary_button.liquid, link: platform.url, label: platform.name %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- END CTA -->

@@ -3,3 +3,6 @@ https://www.podcast.theunusable.com/* https://podcast.theunusable.com/:splat 301
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://confident-haibt-970ea3.netlify.com/* https://podcast.theunusable.com/:splat 301!
+
+# Old about page
+/about  /

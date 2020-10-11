@@ -3,7 +3,7 @@
 /**
 BUTTONS
  */
-.btn {
+.btn:not(:disabled):not(.disabled) {
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 600;
@@ -13,7 +13,7 @@ BUTTONS
   text-decoration: none;
 }
 
-.btn-primary {
+.btn-primary:not(:disabled):not(.disabled) {
   border: 1px solid $brand-colour-dark;
   background-color: $brand-colour-dark;
   color: $full-white;
@@ -24,6 +24,7 @@ BUTTONS
     color: $brand-colour-highlight;
   }
 
+  &:active,
   &:hover {
     border: 1px solid $brand-colour-dark;
     background-color: $brand-colour-highlight;
@@ -32,7 +33,7 @@ BUTTONS
 }
 
 .unusable__dark {
-  .btn-primary {
+  .btn-primary:not(:disabled):not(.disabled) {
     background-color: $brand-colour-highlight;
     color: $text-colour-light;
 
@@ -40,13 +41,14 @@ BUTTONS
       border: 1px solid $full-white;
     }
 
+    &:active,
     &:hover {
       background-color: $full-white;
     }
 
   }
 
-  .btn-secondary {
+  .btn-secondary:not(:disabled):not(.disabled) {
     border: 1px solid $text-colour-dark;
     color: $text-colour-dark;
 
@@ -55,6 +57,7 @@ BUTTONS
       color: $brand-colour-highlight;
     }
 
+    &:active,
     &:hover {
       border: 1px solid $brand-colour-highlight;
       background-color: $brand-colour-highlight;
@@ -63,7 +66,7 @@ BUTTONS
   }
 }
 
-.btn-secondary {
+.btn-secondary:not(:disabled):not(.disabled) {
   background: transparent;
   border: 1px solid $brand-colour-dark;
   color: $brand-colour-dark;
@@ -74,6 +77,7 @@ BUTTONS
     color: $brand-colour-highlight;
   }
 
+  &:active,
   &:hover {
     background-color: $brand-colour-highlight;
     color: $text-colour-light;

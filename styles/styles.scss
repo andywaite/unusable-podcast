@@ -14,6 +14,7 @@ a {
   color: $text-colour-light;
   text-decoration: underline;
 
+  &:active,
   &:hover {
     color: $brand-colour-highlight;
     text-decoration: none;
@@ -45,6 +46,7 @@ a {
   a {
     color: $text-colour-dark;
 
+    &:active,
     &:hover {
       color: $brand-colour-highlight;
     }
