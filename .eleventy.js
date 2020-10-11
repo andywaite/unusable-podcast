@@ -63,7 +63,6 @@ module.exports = function(eleventyConfig) {
 
     // Process image tags
     eleventyConfig.addShortcode("image", async (src, alt, className) => {
-        return "meat";
 
         if (!alt) {
             alt = "";
