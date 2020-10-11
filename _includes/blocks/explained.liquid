@@ -6,10 +6,10 @@
                 <h2 class="unusable__highlight-text">Unusable explained</h2>
             </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-start">
             <div class="col-lg-5 d-none d-lg-block">
                 <ul class="podcast-explained__nav">
-                    <li>
+                    <li class="active">
                         <a href="#what-is-usability">What is usability?</a>
                     </li>
                     <li>
@@ -21,6 +21,35 @@
                     <li>
                         <a href="#who-are-unusable-podcast">Who are you guys?</a>
                     </li>
+                    <script>
+                        // Get all the links above
+                        let links = document.querySelectorAll('.podcast-explained__nav li a');
+
+                        // Click / hover handler
+                        let podcastExplainedHandler = function (event) {
+                            // Strip "active" classes from every link & block
+                            for (let x = 0; x < links.length; x++) {
+                                let hideLink = links[x];
+                                hideLink.parentElement.classList.remove('active');
+                                let hideAnchor = hideLink.getAttribute('href');
+                                document.querySelector(hideAnchor).classList.add('d-none', 'd-block', 'd-lg-none');
+                            }
+
+                            // Set active state on clicked link
+                            this.parentElement.classList.add('active');
+
+                            // Unhide related block
+                            let anchor = this.getAttribute('href');
+                            document.querySelector(anchor).classList.remove('d-none', 'd-block', 'd-lg-none');
+                            event.preventDefault();
+                        };
+
+                        // Loop over links
+                        for (let i = 0; i < links.length; i++) {
+                            // Add click handler to the link
+                            links[i].addEventListener('click', podcastExplainedHandler);
+                        }
+                    </script>
                 </ul>
             </div>
             <div class="col-lg-7">
@@ -35,29 +64,29 @@
                 </div>
                 <div class="explanation-card d-none d-block d-lg-none" id="what-is-ux">
                     <h3 class="explanation-card__title d-none d-block d-lg-none">What is UX?</h3>
-                    <blockquote cite="https://www.interaction-design.org/literature/topics/usability">
-                        Usability is a measure of how well a specific user in a specific context can use a product/design to achieve a defined goal effectively, efficiently and satisfactorily.
+                    <blockquote cite="https://www.nngroup.com/articles/definition-user-experience/">
+                        &quot;User experience&quot; encompasses all aspects of the end-user's interaction with the company, its services, and its products.
                     </blockquote>
                     <p class="explanation-card__quote-source">
-                        - <a href="https://www.interaction-design.org/literature/topics/usability">Interaction Design Foundation</a>
+                        - <a href="https://www.nngroup.com/articles/definition-user-experience/">Nielsen Norman Group</a>
                     </p>
                 </div>
                 <div class="explanation-card d-none d-block d-lg-none" id="why-should-i-care">
-                    <h3 class="explanation-card__title d-none d-block d-lg-none">What is usability?</h3>
-                    <blockquote cite="https://www.interaction-design.org/literature/topics/usability">
-                        Usability is a measure of how well a specific user in a specific context can use a product/design to achieve a defined goal effectively, efficiently and satisfactorily.
+                    <h3 class="explanation-card__title d-none d-block d-lg-none">Why should I care?</h3>
+                    <blockquote cite="https://www.nomtek.com/blog/usability-accessibility">
+                        When your users struggle to achieve the goals the app promises efficiently, they will probably look to your competition to get what your app failed to deliver.
                     </blockquote>
                     <p class="explanation-card__quote-source">
-                        - <a href="https://www.interaction-design.org/literature/topics/usability">Interaction Design Foundation</a>
+                        - <a href="https://www.nomtek.com/blog/usability-accessibility">Nomtek</a>
                     </p>
                 </div>
                 <div class="explanation-card d-none d-block d-lg-none" id="who-are-unusable-podcast">
-                    <h3 class="explanation-card__title d-none d-block d-lg-none">What is usability?</h3>
-                    <blockquote cite="https://www.interaction-design.org/literature/topics/usability">
-                        Usability is a measure of how well a specific user in a specific context can use a product/design to achieve a defined goal effectively, efficiently and satisfactorily.
+                    <h3 class="explanation-card__title d-none d-block d-lg-none">Who are Unusable Podcast?</h3>
+                    <blockquote>
+                        We are web professionals with over 20 years combined experience. We enjoy exploring the world of UX & usability through humour.
                     </blockquote>
                     <p class="explanation-card__quote-source">
-                        - <a href="https://www.interaction-design.org/literature/topics/usability">Interaction Design Foundation</a>
+                        - Andrew & David, The Unusable Podcast hosts
                     </p>
                 </div>
             </div>

@@ -12,12 +12,11 @@ This is the new 2020 version, now using Eleventy. There is plenty still to do:
  - ~~Add date to podcast episode & episodes page~~
  - Fix styling on mobile
  - ~~Explained section link on homepage is invisible~~
- - Explained section doesn't work
- - Explained section doesn't have content
+ - ~~Explained section doesn't work~~
+ - ~~Explained section doesn't have content~~
  - ~~Check link hover states~~
  - ~~Shop page~~
  - ~~Videos page~~
- - Live video feed from Youtube (?)
  - ~~Make sure static files get copied over, and make sense (e.g. favicon)~~
  - ~~Sitemap generation~~
  - ~~Podcast feed generation~~

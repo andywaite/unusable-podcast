@@ -152,6 +152,17 @@ PODCAST EXPLAINED
     height: 100%;
 
     li {
+      &.active a {
+        text-decoration: none;
+        color: $brand-colour-highlight;
+        margin-left: 10px;
+
+        &:after {
+          content: "\27F6";
+          margin-left: 10px;
+        }
+      }
+
       a {
         color: $text-colour-dark;
         font-size: 1.3rem;
@@ -188,7 +199,6 @@ PODCAST EXPLAINED
     font-size: 1.3rem;
     box-shadow: 15px 15px 0 $brand-colour-highlight;
     margin-bottom: 30px;
-    text-align: justify;
 
     a {
       color: $text-colour-light;
