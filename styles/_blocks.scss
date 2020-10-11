@@ -190,6 +190,16 @@ PODCAST EXPLAINED
     margin-bottom: 30px;
     text-align: justify;
 
+    a {
+      color: $text-colour-light;
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: $brand-colour-highlight;
+      }
+    }
+
     blockquote {
       &:before {
         content: "“";
