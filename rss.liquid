@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
         <itunes:category text="Technology"/>
         {% assign podcasts = collections.podcast |  reverse %}
         {% for podcast in podcasts %}
-            {% assign podcastUrl = metadata.url | append:"podcasts/" | append:"podcast.data.mp3" %}
+            {% assign podcastUrl = metadata.url | append:"podcasts/" | append: podcast.data.mp3 %}
             <item>
                 <title>{{ podcast.data.title }}</title>
                 <itunes:summary>
@@ -39,14 +39,14 @@ eleventyExcludeFromCollections: true
 
                     ]]>
                 </description>
-                <link>{{ podcast.data.url }}</link>
+                <link>{{ metadata.siteUrl }}{{ podcast.url }}</link>
                 <enclosure url="{{ podcastUrl }}" type="audio/mpeg" length="0"></enclosure>
                 <pubDate>21 Jun 2020 18:30:00 +0000</pubDate>
                 <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
                 <itunes:duration>{{ podcast.data.duration }}</itunes:duration>
                 <itunes:explicit>no</itunes:explicit>
                 <itunes:episode>{{ podcast.data.number }}</itunes:episode>
-                <guid>{{ metadata.siteUrl }}{{ podcast.data.url }}</guid>
+                <guid>{{ metadata.siteUrl }}{{ podcast.url }}</guid>
             </item>
         {% endfor %}
     </channel>
