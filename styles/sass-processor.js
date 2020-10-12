@@ -9,6 +9,7 @@ module.exports = (scssPath, cssPath) => {
         //Encapsulate rendered css from scssPath into result variable
         const result = sass.renderSync({file: scssPath});
         //Create cssPath directory recursively
+        console.log(process.cwd());
         fs.mkdir(path.dirname(cssPath), {recursive: true})
             //Then write result css string to cssPath file
             .then(() => fs.writeFile(cssPath, result.css.toString()))
