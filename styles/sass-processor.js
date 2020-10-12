@@ -13,7 +13,9 @@ module.exports = (scssPath, cssPath) => {
         const result = sass.renderSync({file: scssPath});
         //Create cssPath directory recursively
         console.log(process.cwd());
-        fs.mkdir(path.dirname('banana'), {recursive: true}, (err) => {
+        console.log(path.dirname(cssPath));
+
+        fs.mkdir(path.dirname(cssPath), {recursive: true}, (err) => {
             console.log("DIR MADE");
             if (err) {
                 return console.error(err);
