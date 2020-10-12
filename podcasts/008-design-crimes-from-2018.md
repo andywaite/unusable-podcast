@@ -2,12 +2,12 @@
 number: "008"
 title: "Design Crimes From 2018"
 date: 2019-01-11T22:28:56Z
-description: "Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the Playstation buttons"
+description: "Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the PlayStation buttons"
 mp3: "008-design-crimes-from-2018.mp3"
 duration: 00:49:00
 ---
 
-Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the Playstation buttons.
+Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the PlayStation buttons.
 
 
 Other things we talk about:
@@ -18,7 +18,7 @@ Other things we talk about:
 - A building that injures people
 - A terrible robot shop assistant
 - A computer forces David into an encounter with a naked man
-- The origins of the Playstation buttons
+- The origins of the PlayStation buttons
 - Inclusive design
 
 Links mentioned:

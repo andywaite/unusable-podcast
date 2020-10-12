@@ -19,7 +19,7 @@ Other things we talk about:
  - Unique sounds in technology
  - Faked sounds in cars
  - Jingles that are ear-worms
- - Autoplaying music on websites
+ - Auto-playing music on websites
  - David comments on the usability of a self-checkout and almost gets punched
  - Andy bum-shuffles on a water slide
 
@@ -30,5 +30,5 @@ Links mentioned:
  - [The Fake Sounds Companies Add To Products - Cheddar Explains](https://www.youtube.com/watch?v=rZOpDve8ARA)
  - [99 percent invisible episode - Sound in hospitals](https://99percentinvisible.org/episode/sound-and-health-hospitals/)
  - [99 percent invisible episode - Sound in cities](https://99percentinvisible.org/episode/sound-and-health-cities/)
- - [The meat website that used to have an amazing autoplaying jingle](https://wholesalemeatscoventry.co.uk/)
+ - [The meat website that used to have an amazing auto-playing jingle](https://wholesalemeatscoventry.co.uk/)
 
