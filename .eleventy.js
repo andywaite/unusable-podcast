@@ -5,9 +5,6 @@ const sass = require('./styles/sass-processor');
 
 module.exports = function(eleventyConfig) {
 
-    //Watching for modifications in style directory
-    sass('styles/styles.scss', '_site/styles/styles.css');
-
     // Minify HTML
     eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
         if( outputPath.endsWith(".html") ) {
@@ -127,4 +124,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("toarray", function(value) {
         return Object.values(value);
     });
+
+    //Watching for modifications in style directory
+    sass('styles/styles.scss', '_site/styles/styles.css');
 }
