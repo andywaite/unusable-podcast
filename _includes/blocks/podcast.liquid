@@ -1,13 +1,26 @@
 <div class="container podcast-article unusable__block">
     <div class="row">
         <div class="col-lg-6 mx-auto">
-
-            {{ content }}
-            <a href="/podcasts/{{ mp3 }}" class="btn btn-secondary">Download episode {{ number }} as MP3</a>
+            <div class="podcast-article__stats text-center">
+                <p class="podcast-article__duration">
+                    <span class="podcast-article__label">Duration: </span> {{ duration | timeToMinutes }} minutes
+                </p>
+            </div>
         </div>
     </div>
-</div>
-<div class="container podcast-article unusable__block">
+    <div class="row">
+        <div class="col-lg-6 mx-auto">
+            {{ content }}
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mx-auto">
+            <p class="text-center">
+                <a href="/podcasts/{{ mp3 }}" class="btn btn-secondary">Download episode {{ number }} as MP3</a>
+            </p>
+        </div>
+    </div>
     <div class="row">
         <div class="col-lg-6 mx-auto">
             <p>{{ metadata.description }}</p>

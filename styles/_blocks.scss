@@ -342,5 +342,43 @@ footer {
 PODCAST ARTICLE
  */
 .podcast-article {
+  &__label {
+    text-indent: -10000px;
+    background-image: url(/images/podcast-sprite.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 10px;
+  }
 
+  &__duration {
+    text-transform: uppercase;
+    color: #737373;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    margin-top: -30px;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+
+  &__date {
+    .podcast-card__label {
+      background-position: right;
+    }
+  }
+
+  &__duration {
+    .podcast-card__label {
+      background-position: left;
+    }
+  }
+
+  .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
