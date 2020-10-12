@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://podcast.theunusable.com/sitemap.xml
