@@ -18,7 +18,7 @@ In this episode of the Unusable Podcast, Andrew & David discuss road signs and i
 
 Links mentioned:
 
- - [Young drivers understand enoji roadsigns better](https://www.rsagroup.com/news/press-releases/2016/young-drivers-understand-emoji-road-signs-better-than-real-road-signs/)
+ - [Young drivers understand emoji roadsigns better](https://www.rsagroup.com/news/press-releases/2016/young-drivers-understand-emoji-road-signs-better-than-real-road-signs/)
  - [Andy can't get corn](https://twitter.com/UnusablePodcast/status/1044204790174175232)
  - [None pizza with left beef](https://gizmodo.com/reflections-on-the-10th-anniversary-of-none-pizza-with-1819692097)
  - [Photos of our own pizza on Twitter](https://twitter.com/UnusablePodcast/status/1045132181427957760)
