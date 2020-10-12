@@ -8,6 +8,13 @@
 
 body {
   min-height:100vh;
+  white-space: pre; /* CSS 2.0 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3.0 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: -moz-pre-wrap; /* Mozilla */
+  word-wrap: break-word; /* IE 5+ */
 }
 
 a {
@@ -75,7 +82,8 @@ a {
 }
 
 .unusable__block {
-  padding: 90px 0;
+  padding-top: 90px;
+  padding-bottom: 90px;
   h2 {
     margin-top: -10px;
     padding: 0 0 60px;
