@@ -74,7 +74,7 @@ module.exports = function(eleventyConfig) {
         }
 
         let stats = await Image(src, {
-            widths: [25, 320, 640, 960, 1200, 1800, 2400],
+            widths: [320, 640, 960, 1200, 1800, 2400],
             formats: [fallbackOutput, "webp"],
             urlPath: "/images/",
             outputDir: "./_site/images/",
