@@ -16,7 +16,7 @@ Other things we talk about:
  - Journaling on Slack
  - Privacy flaws with Zoom
  - Google Nest's camera outage
- - Unnatural delay on Hermes' chatbot
+ - Unnatural delay on Hermes' chat-bot
  - Comixology only has US vouchers
 
 

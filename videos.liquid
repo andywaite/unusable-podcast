@@ -3,7 +3,7 @@ layout: shop.liquid
 title: Unusable videos
 ---
 {% include blocks/header.liquid, dark: true, subtitle: "If you like our podcast, you might also like these videos we make.", link: socials.youtube.url, label: "Watch on YouTube" %}
-<main class="flex-fill">
+<main id="main" class="flex-fill">
     <div class="container unusable__block video-carousel">
         <div class="row">
             {% for video in videos %}

@@ -22,7 +22,7 @@ Links mentioned:
 
 
  - [Sonos speaker update sparks anger](https://www.bbc.co.uk/news/technology-51206604)
- - [Boring wikipedia definition of Planned Obsolescence](https://en.wikipedia.org/wiki/Planned_obsolescence)
+ - [Boring Wikipedia definition of Planned Obsolescence](https://en.wikipedia.org/wiki/Planned_obsolescence)
  - [The Phoebus cartel](https://en.wikipedia.org/wiki/Phoebus_cartel)
  - [Our shop](https://podcast.theunusable.com/shop/#!/)
  - [Our Patreon](https://www.patreon.com/unusablepodcast)

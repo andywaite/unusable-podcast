@@ -11,7 +11,7 @@ What is Hick's Law? In this episode we discuss static website generators, & keep
 
 Other things we talk about:
  - Wizards
- - Martial arts, hahahaha
+ - Martial arts
  - A rigmarole logging into the student loans website
  - Annoying Britbox app issues
 

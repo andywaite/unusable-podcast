@@ -17,6 +17,6 @@ Other things we talk about:
 
 Links mentioned:
  - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
- - [Google pagespeed insights](https://developers.google.com/speed/pagespeed/insights/)
+ - [Google PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/)
  - [Google Core Web Vitals report](https://support.google.com/webmasters/answer/9205520?hl=en)
  - [Our shop](https://podcast.theunusable.com/shop/#!/)
