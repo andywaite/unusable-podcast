@@ -15,7 +15,7 @@ module.exports = (scssPath, cssPath) => {
         console.log(process.cwd());
         console.log(path.dirname(cssPath));
 
-        fs.mkdir(path.dirname(cssPath), {recursive: true}, (err) => {
+        fs.mkdirp(path.dirname(cssPath), {recursive: true}, (err) => {
             console.log("DIR MADE");
             if (err) {
                 return console.error(err);
