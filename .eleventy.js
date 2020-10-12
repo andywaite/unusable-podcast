@@ -6,7 +6,7 @@ const sass = require('./styles/sass-processor');
 module.exports = function(eleventyConfig) {
 
     //Watching for modifications in style directory
-    sass('./styles/styles.scss', './_site/styles/styles.css');
+    sass('styles/styles.scss', '_site/styles/styles.css');
 
     // Minify HTML
     eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
