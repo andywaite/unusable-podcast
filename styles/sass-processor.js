@@ -13,10 +13,15 @@ module.exports = (scssPath, cssPath) => {
         const result = sass.renderSync({file: scssPath});
         //Create cssPath directory recursively
         console.log(process.cwd());
-        fs.mkdir(path.dirname(cssPath), {recursive: true})
-            //Then write result css string to cssPath file
-            .then(() => fs.writeFile(cssPath, result.css.toString()))
-            .catch(error => console.error(error))
+        fs.mkdir(path.dirname(cssPath), {recursive: true}, (err) => {
+            console.log("DIR MADE");
+            if (err) {
+                return console.error(err);
+            }
+            console.log("NO ERROR");
+            fs.writeFile(cssPath, result.css.toString());
+            console.log("Success");
+        });
     }
 
     // //Watch for changes to scssPath directory...
