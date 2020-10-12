@@ -22,7 +22,7 @@ This is the new 2020 version, now using Eleventy. There is plenty still to do:
  - ~~Podcast feed generation~~
  - ~~Custom 404~~
  - ~~Images bork on Safari~~
- - Podcast feed is invalid
+ - ~~Podcast feed is invalid~~
  - Optimise / check in Lighthouse etc
 
 
