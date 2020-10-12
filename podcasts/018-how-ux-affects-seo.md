@@ -13,7 +13,7 @@ Other things we talk about:
  - ASCII art porn
  - David's new kettle isn't an improvement
  - Apple disregards what we all know about AA batteries
- - Andrew fails to use Duck Duck Go & Bing
+ - Andrew fails to use Duck Duck Go &amp; Bing
 
 Links mentioned:
  - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)

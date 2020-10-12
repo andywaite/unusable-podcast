@@ -7,7 +7,7 @@ mp3: "002-unusable-podcast-killed-by-bad-usability.mp3"
 duration: 00:51:00
 ---
 
-In this episode Andrew & David discuss when bad usability or UX has had horrible consequences, like misdiagnosis, accidents & radiation leak. Also Andy's annoying coffee machine & David's useless microwave.
+In this episode Andrew &amp; David discuss when bad usability or UX has had horrible consequences, like misdiagnosis, accidents &amp; radiation leak. Also Andy's annoying coffee machine &amp; David's useless microwave.
 
 Here's the link to the episode: 002-unusable-podcast-killed-by-bad-usability.mp3
 

@@ -13,10 +13,10 @@ We discuss using technology with different types of disabilities, what the term 
 Other things we talk about:
 
  - Accessibility as an afterthought vs Inclusive design
- - Screenreaders & how blind people use the internet
+ - Screenreaders &amp; how blind people use the internet
  - Funkify disability simulator
  - Silktide's screen reader simulator
- - Voice UI for to provide accessibility options, including for the elderly & in the shower
+ - Voice UI for to provide accessibility options, including for the elderly &amp; in the shower
  - Andrew's bank nightmare
 
 

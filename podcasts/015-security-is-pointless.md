@@ -13,7 +13,7 @@ Other things we talk about:
  - Bad actors - apparently it's a security term
  - 2 factor authentication
  - Kanye West's iPhone password
- - Wifi-enabled locks & voice recognition
+ - Wifi-enabled locks &amp; voice recognition
  - Hacking smart speakers with a laser beam
  - Biometrics
  - Logging in on a TV

@@ -7,16 +7,16 @@ mp3: "009-designing-for-failure.mp3"
 duration: 00:44:30
 ---
 
-David & Andrew discuss the importance of designing for failure & making sure the problem is communicated to the user.
+David &amp; Andrew discuss the importance of designing for failure &amp; making sure the problem is communicated to the user.
 
 Other things we talk about:
 
  - The chaos monkey
- - Chrome's dinosaur game, service workers, BSOD & Twitter's "fail whale"
+ - Chrome's dinosaur game, service workers, BSOD &amp; Twitter's "fail whale"
  - Creating the best error message
  - Facebook's annoying "chat heads"
  - Andy's hotel TV "nightmare"
- - Sky TV & YouView's interfaces
+ - Sky TV &amp; YouView's interfaces
 
 
 Links mentioned:

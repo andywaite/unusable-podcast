@@ -28,5 +28,5 @@ Links mentioned:
  - [The Spirit Of The Internet](https://www.theawl.com/2016/11/the-spirit-of-the-internet/)
  - [Browser engine diversity](https://css-tricks.com/browser-engine-diversity/)
  - [The Revenge of the IE Box Model?](https://www.jefftk.com/p/the-revenge-of-the-ie-box-model)
- - [False Alarms & Alert Fatigue: The Tragic Design of Hospital Alerts](https://medium.com/@kellynstandley/false-alarms-emotional-overwhelm-the-tragic-design-of-hospital-alerts-fa7d7a78c201)
+ - [False Alarms &amp; Alert Fatigue: The Tragic Design of Hospital Alerts](https://medium.com/@kellynstandley/false-alarms-emotional-overwhelm-the-tragic-design-of-hospital-alerts-fa7d7a78c201)
 

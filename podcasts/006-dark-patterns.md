@@ -7,7 +7,7 @@ mp3: "006-dark-patterns.mp3"
 duration: 00:42:00
 ---
 
-In this episode of the Unusable Podcast, Andrew & David discuss "dark patterns" which are tricks that get customers to buy more in websites &amp; apps. We talk about actual examples &amp; get distracted on Wish.com by all the cheap tat from China.
+In this episode of the Unusable Podcast, Andrew &amp; David discuss "dark patterns" which are tricks that get customers to buy more in websites &amp; apps. We talk about actual examples &amp; get distracted on Wish.com by all the cheap tat from China.
 
 Other things we discussed:
 

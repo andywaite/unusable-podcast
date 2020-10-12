@@ -7,7 +7,7 @@ mp3: "003-unusable-measurements.mp3"
 duration: 00:49:00
 ---
 
-In this episode Andrew & David discuss units of measurements (including time & length) and how unnecessarily complicated they are.
+In this episode Andrew &amp; David discuss units of measurements (including time &amp; length) and how unnecessarily complicated they are.
 Also there's a brief discussion about how babies should be measured, David talks about how showers should work, and Andy talks about touchscreen drinks dispensers.
 
 Links to things mentioned:

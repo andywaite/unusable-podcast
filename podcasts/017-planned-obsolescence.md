@@ -13,7 +13,7 @@ Other things we talk about:
 
  - 100 year old lightbulb - the "Centennial Light"
  - HP ink cartridges not working after time
- - TV upgrades, & the pointlessness of 8K
+ - TV upgrades, &amp; the pointlessness of 8K
 
 
 

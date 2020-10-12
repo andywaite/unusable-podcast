@@ -1,13 +1,13 @@
 ---
 number: "016"
-title: "Drinking Whisky & Working From Home"
+title: "Drinking Whisky &amp; Working From Home"
 date: 2020-04-11T14:47:07+01:00
 description: "Being forced to work from home due to coronavirus, Andrew &amp; David discuss video chatting using Zoom &amp; Skype, &amp; then the rigmarole of getting things delivered. It gets a bit silly towards the end, because Andrew has been drinking whisky."
 mp3: "016-working-from-home.mp3"
 duration: 00:50:01
 ---
 
-Being forced to work from home due to coronavirus, Andrew & David discuss video chatting using Zoom & Skype, & then the rigmarole of getting things delivered. 
+Being forced to work from home due to coronavirus, Andrew &amp; David discuss video chatting using Zoom &amp; Skype, &amp; then the rigmarole of getting things delivered. 
 It gets a bit silly towards the end, because Andrew has been drinking whisky. 
 
 Other things we talk about:
