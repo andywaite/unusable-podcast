@@ -195,10 +195,16 @@ PODCAST EXPLAINED
     font-family: 'PT Serif', 'serif';
     background-color: $full-white;
     color: $text-colour-light;
-    padding: 40px 75px;
+    padding: 30px;
     font-size: 1.3rem;
     box-shadow: 15px 15px 0 $brand-colour-highlight;
     margin-bottom: 30px;
+    margin-right: 15px;
+
+    @media (min-width: $screen-size-large) {
+      padding: 40px 75px;
+      margin-right: 0;
+    }
 
     a {
       color: $text-colour-light;
@@ -245,6 +251,14 @@ PODCAST SHOP
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    @media (min-width: $screen-size-large) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
     img {
       width: 100%;
       height: auto;
