@@ -65,14 +65,22 @@ module.exports = function(eleventyConfig) {
             alt = "";
         }
 
+        let fallbackOutput = 'jpeg';
+        let splitSrc = src.split(".");
+        let extension = splitSrc[splitSrc.length - 1];
+
+        if (extension.toLowerCase() === 'png') {
+            fallbackOutput = 'png';
+        }
+
         let stats = await Image(src, {
             widths: [25, 320, 640, 960, 1200, 1800, 2400],
-            formats: ["jpeg", "webp"],
+            formats: [fallbackOutput, "webp"],
             urlPath: "/images/",
             outputDir: "./_site/images/",
         });
 
-        let lowestSrc = stats["jpeg"][0];
+        let lowestSrc = stats[fallbackOutput][0];
 
         const srcset = Object.keys(stats).reduce(
             (acc, format) => ({
@@ -92,7 +100,7 @@ module.exports = function(eleventyConfig) {
           alt="${alt}"
           src="${lowestSrc.url}"
           sizes='(min-width: 1024px) 1024px, 100vw'
-          srcset="${srcset["jpeg"]}"
+          srcset="${srcset["fallbackOutput"]}"
           width="${lowestSrc.width}"
           height="${lowestSrc.height}"
           class="${className}">`;
