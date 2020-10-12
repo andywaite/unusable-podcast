@@ -3,9 +3,12 @@ const fs = require('fs-extra');
 const path = require('path');
 
 module.exports = (scssPath, cssPath) => {
+    console.log(process.cwd());
+    console.log("HERE");
 
     //If cssPath directory doesn't exist...
     if(!fs.existsSync(path.dirname(cssPath))) {
+        console.log("AM BUILDING");
         //Encapsulate rendered css from scssPath into result variable
         const result = sass.renderSync({file: scssPath});
         //Create cssPath directory recursively
