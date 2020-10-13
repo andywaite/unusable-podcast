@@ -1,0 +1,22 @@
+---
+layout: layout.liquid
+title: Page not found
+permalink: /404.html
+---
+<header class="unusable__header">
+    <div class="container">
+        {% include blocks/nav.liquid %}
+    </div>
+</header>
+<main id="main" class="flex-fill d-flex align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Page <span class="unusable__underline">not found</span></h1>
+                <p>Well that’s kind-of ironic. The page you’re looking for is missing. How Unusable is that?</p>
+                <p><a href="/" class="btn btn-primary">Back Home</a></p>
+            </div>
+        </div>
+    </div>
+</main>
+{% include blocks/footer.liquid %}

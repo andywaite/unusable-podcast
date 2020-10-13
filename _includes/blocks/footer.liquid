@@ -1,0 +1,32 @@
+<footer class="unusable__dark footer">
+    {% include blocks/cta_bar.liquid %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/logo-dark.svg" alt="" class="footer-logo" />
+            </div>
+            <div class="col-md-4">
+                <h3 class="unusable__highlight-text">Navigation</h3>
+                <ul>
+                    {% assign links = nav |  toarray %}
+                    {% for link in links %}
+                        <li>
+                            <a href="{{ link.path }}">{{ link.label }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3 class="unusable__highlight-text ">Social</h3>
+                <ul>
+                    {% assign socialmedia = socials |  toarray %}
+                    {% for link in socialmedia %}
+                    <li>
+                        <a href="{{ link.url }}">{{ link.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

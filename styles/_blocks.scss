@@ -1,0 +1,384 @@
+@import "variables";
+
+
+header {
+  .navbar {
+    padding: 20px 0;
+
+    .btn {
+      margin-left: 20px;
+    }
+
+    .nav-item .nav-link {
+      padding: .5rem 1.3rem;
+      color: $text-colour-light;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .logo {
+    width: 166px;
+    height: auto;
+  }
+}
+
+/**
+ARTICLE HEADER
+ */
+.unusable__header {
+
+  padding-bottom: 60px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+
+  h1 {
+    color: $brand-colour-highlight;
+    margin: 30px 0;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.8em;
+  }
+
+  &.unusable__dark {
+    .navbar {
+      .nav-item .nav-link {
+        color: $text-colour-dark;
+      }
+    }
+  }
+}
+
+
+/**
+HOME HERO
+ */
+.unusable__hero {
+
+  @media (min-width: $screen-size-large) {
+    background: linear-gradient(285deg, $brand-colour-highlight 0%, $brand-colour-highlight 52%, $brand-colour-light 52%, $brand-colour-light 100%);
+  }
+
+  .hero {
+    .hero__title {
+      padding: 60px 0;
+      h1 {
+        font-size: 2.7rem;
+      }
+      p {
+        padding: 20px 0;
+        line-height: 1.8rem;
+      }
+    }
+
+    .hero__image {
+      width:100%;
+      height: auto;
+    }
+  }
+}
+
+
+/**
+SUBSCRIBE CTA
+ */
+.subscribe-cta {
+  .btn-secondary {
+    width: 100%;
+    margin: 18px 0;
+  }
+
+  &.subscribe-cta--alt {
+    padding: 0 0 30px;
+    margin-top: -30px;
+  }
+
+  h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18rem;
+    margin: 0;
+    padding: 30px 0 15px;
+
+    @media (min-width: $screen-size-large) {
+      text-align: left;
+      padding: 0;
+    }
+
+    &:after {
+      content: "\27F6";
+      margin-left: 10px;
+      color: $brand-colour-highlight;
+    }
+  }
+
+  &:hover h2 {
+    animation-name: bounce-right;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes bounce-right {
+  0%   {transform: translateX(0)}
+  10%  {transform: translateX(20px)}
+  20%  {transform: translateX(0)}
+  30%  {transform: translateX(20px)}
+  40%  {transform: translateX(0)}
+  100% {transform: translateX(0)}
+}
+
+
+/**
+PODCAST EXPLAINED
+ */
+.podcast-explained {
+
+  &__nav {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+
+    li {
+      &.active a {
+        text-decoration: none;
+        color: $brand-colour-highlight;
+        margin-left: 10px;
+
+        &:after {
+          content: "\27F6";
+          margin-left: 10px;
+        }
+      }
+
+      a {
+        color: $text-colour-dark;
+        font-size: 1.3rem;
+        padding: 10px 0;
+        display: block;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: none;
+          color: $brand-colour-highlight;
+          margin-left: 10px;
+
+          &:after {
+            content: "\27F6";
+            margin-left: 10px;
+          }
+        }
+
+        &:active:after {
+          content: "\27F6";
+          margin-left: 10px;
+          color: $brand-colour-highlight;
+        }
+      }
+    }
+  }
+
+  .explanation-card {
+
+    font-family: 'PT Serif', 'serif';
+    background-color: $full-white;
+    color: $text-colour-light;
+    padding: 30px;
+    font-size: 1.3rem;
+    box-shadow: 15px 15px 0 $brand-colour-highlight;
+    margin-bottom: 30px;
+    margin-right: 15px;
+
+    @media (min-width: $screen-size-large) {
+      padding: 40px 75px;
+      margin-right: 0;
+    }
+
+    a {
+      color: $text-colour-light;
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: $brand-colour-highlight;
+      }
+    }
+
+    blockquote {
+      &:before {
+        content: "“";
+      }
+
+      &:after {
+        content: "”";
+      }
+
+      line-height: 1.8em;
+      font-style: italic;
+    }
+
+  }
+}
+
+/**
+PODCAST SHOP
+ */
+.podcast-shop {
+
+  border-bottom: 1px solid #e7e7e7;
+
+  h2 {
+    padding-bottom: 20px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  &__gallery__col {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    @media (min-width: $screen-size-large) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  }
+  &__gallery {
+    margin-top: 60px;
+  }
+}
+
+
+/**
+VIDEOS
+ */
+.video-carousel {
+
+  h2 {
+    padding-bottom: 20px;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+
+  iframe {
+    margin-top: 60px;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+  }
+}
+
+
+/**
+FOOTER
+ */
+footer {
+  padding: 0 0 120px;
+
+  .subscribe-cta {
+    margin-bottom: 90px;
+  }
+
+
+  h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18rem;
+  }
+
+  .footer-logo {
+    width: 166px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      a {
+        color: $text-colour-dark;
+        display: block;
+        width: 50%;
+        float: left;
+        margin: 10px 0;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+          color: $brand-colour-highlight;
+        }
+      }
+    }
+  }
+}
+
+/**
+PODCAST ARTICLE
+ */
+.podcast-article {
+  &__label {
+    text-indent: -10000px;
+    background-image: url(/images/podcast-sprite.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  &__duration {
+    text-transform: uppercase;
+    color: #737373;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    margin-top: -30px;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+
+  &__date {
+    .podcast-card__label {
+      background-position: right;
+    }
+  }
+
+  &__duration {
+    .podcast-card__label {
+      background-position: left;
+    }
+  }
+
+  .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+<!-- UNUSABLE SHOP -->
+<div class="podcast-shop unusable__block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>The <span class="unusable__underline">Unusable Shop</span> is open for business</h2>
+                <p>So you want to look cool and support our podcast? Buy totally rad fashions the Unusable Shop and send us a picture!</p>
+                <p>
+                    {% include components/primary_button.liquid, link: "/shop", label: "Browse our shop" %}
+                    {% assign mailLink = "mailto:" | append: metadata.email %}
+                    {% include components/secondary_button.liquid, link: mailLink, label: "Send us a picture" %}
+                </p>
+            </div>
+        </div>
+        <div class="row podcast-shop__gallery">
+            <div class="col-3 podcast-shop__gallery__col">
+                {% image "images/shop-0.png", "Female Unusable Podcast listener smiling wearing a dark blue Unusable Podcast t-shirt", "" %}
+            </div>
+            <div class="col-3 podcast-shop__gallery__col">
+                {% image "images/shop-2.png", "Male Unusable Podcast listener smiling wearing a light blue Unusable Podcast t-shirt", "" %}
+                {% image "images/shop-1.png", "Podcast host Andrew wearing a dark blue Unusable Podcast sweatshirt", "" %}
+            </div>
+            <div class="col-3 podcast-shop__gallery__col">
+                {% image "images/shop-4.png", "Podcast host Andrew, standing in a forest, wearing a dark blue Unusable Podcast sweatshirt", "" %}
+            </div>
+            <div class="col-3 podcast-shop__gallery__col">
+                {% image "images/shop-3.png", "Male podcast listener wearing a light grey Unusable Podcast sweatshirt", "" %}
+                {% image "images/shop-5.png", "Podcast listeners showing off their Unusable Podcast merchandise, including a t-shirt and mug", "" %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END UNUSABLE SHOP -->

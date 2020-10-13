@@ -1,0 +1,24 @@
+<!-- START VIDEO CAROUSEL -->
+<div class="unusable__block unusable__dark video-carousel">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>We also make <span class="unusable__underline">videos</span></h2>
+                <p>If you like our podcast, you might also like these videos we make.</p>
+                <p>
+                    {% include components/primary_button.liquid, link: '/videos', label: "Our videos" %}
+                    {% include components/secondary_button.liquid, link: socials.youtube.url, label: "Watch on YouTube" %}
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            {% assign threeVideos = videos | limit:3 %}
+            {% for video in threeVideos %}
+            <div class="col-md-4">
+                <iframe title="{{ video.title }}" src="https://www.youtube-nocookie.com/embed/{{ video.id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- END VIDEO CAROUSEL -->

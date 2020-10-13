@@ -2,29 +2,53 @@ Directory of the Unusable podcast website, including audio assets and podcast fe
 Podcast website https://podcast.theunusable.com/
 Podcast feed: https://podcast.theunusable.com/podcast.rss
 
-Hugo theme is "Sam": https://themes.gohugo.io/hugo-theme-sam/
+## Unfinished 2020 version
 
-Run this to get theme files:
-git submodule update --init --recursive
+This is the new 2020 version, now using Eleventy. There is plenty still to do:
 
-Run this to preview locally: 
-hugo serve -t hugo-sam
+ - ~~Make SCSS generation happen on build rather than using a watcher in IDE~~
+ - ~~Finish adding schema data / ld+json~~
+ - ~~Add og tags~~
+ - ~~Add date to podcast episode & episodes page~~
+ - Fix styling on mobile
+ - ~~Explained section link on homepage is invisible~~
+ - ~~Explained section doesn't work~~
+ - ~~Explained section doesn't have content~~
+ - ~~Check link hover states~~
+ - ~~Shop page~~
+ - ~~Videos page~~
+ - ~~Make sure static files get copied over, and make sense (e.g. favicon)~~
+ - ~~Sitemap generation~~
+ - ~~Podcast feed generation~~
+ - ~~Custom 404~~
+ - ~~Images bork on Safari~~
+ - ~~Podcast feed is invalid~~
+ - Optimise / check in Lighthouse etc
 
-To add a new episode:
-- Add the mp3 file to static/podcasts - Commit and push, then get url to show Andy
-- hugo new podcasts/019-whatever.md
-- Remove draft:true from new page in content/podcasts
-- Make sure the new page is in git
-- Add: description: "lorem ipsum"
-- Write a description of the episode in the file, and link to the MP3 file
-- Edit static/podcasts/podcast.rss - add new item
-- Run command "hugo" to build the site.
-- Commit and push
-- Copy rendered HTML from live page and add to feed. Then commit and push again.
+
+
+## Local development
+
+To dev this site locally, you need to have yarn installed.
+
+Install dependencies:
+```
+yarn
+```
+
+Start local dev server:
+```
+yarn dev
+```
+
+## To add a new episode
+- Add the mp3 file to `/podcasts` - Commit and push, then get url to show Andy
+- Add a new markdown file to `/podcasts`, matching the format of existing
+- Edit text and make sure it makes sense
+- Make sure to include the link to the MP3 file
+- Find an image using unsplash and add it to `/podcasts`. Make sure it's a jpg, and named the same as the podcast number - e.g. 018.jpg
+- Note that images get optimised automatically, no need to worry about its size
+- Commit & push
+- Wait for site to go live
+- Check it's legit
 - Check feed is valid with http://castfeedvalidator.com/ & https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fpodcast.theunusable.com%2Fpodcast.rss
-
-
-Guide for creating a video
-- Create a video version in iMovie, fade to black 20 seconds before end.
-- Upload video version to Youtube & add the description from the page, including links
-- Add the end links in Youtube

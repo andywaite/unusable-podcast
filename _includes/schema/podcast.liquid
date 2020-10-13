@@ -1,0 +1,21 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "PodcastSeries",
+        "image": "https://{{ metadata.url }}cover.jpg",
+        "url": "{{ metadata.url }}",
+        "name": "{{ metadata.title }}",
+        "description": "{{ metadata.description }}",
+        "webFeed": "{{ metadata.url }}{{ metadata.rss }}",
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Andrew Waite"
+            },
+            {
+                "@type": "Person",
+                "name": "David Ball"
+            }
+        ]
+    }
+</script>

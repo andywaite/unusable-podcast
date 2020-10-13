@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include schema/episode.liquid %}
+    {% include schema/org.liquid %}
+    {% include schema/podcast.liquid %}
+    {% include blocks/head.liquid %}
+</head>
+<body class="d-flex flex-column">
+    {% include blocks/gtm_noscript.liquid %}
+    {% assign episodeNumber = "Episode " | append: number  %}
+    {% assign image = "podcasts/" | append:number | append:".jpg" %}
+    {% include blocks/header.liquid, dark: true, subtitle: episodeNumber, image: image, podcastDate: date  %}
+    <main id="main" class="flex-fill">
+        {% include blocks/podcast.liquid %}
+    </main>
+    {% include blocks/footer.liquid %}
+</body>
+</html>

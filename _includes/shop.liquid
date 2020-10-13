@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include schema/org.liquid %}
+    {% include schema/podcast.liquid %}
+    {% include blocks/head.liquid %}
+    <!-- SHOP SPECIFIC STYLE OVERRIDES -->
+    <style>
+        .sprd-info-footer__open-shop,
+        .sprd-navigation,
+        .sprd-header__image,
+        .sprd-listpage__title,
+        .sprd__headline {
+            display: none !important;
+        }
+        .SprdMain .sprd-img-spinner__image {
+            border: 1px solid #e7e7e7;
+        }
+        .sprd-bg-m1,
+        .customPageBackground,
+        .sprd-container {
+            background-color: transparent !important;
+        }
+    </style>
+    <!-- END SHOP SPECIFIC STYLE OVERRIDES -->
+</head>
+    <body class="d-flex flex-column">
+        {% include blocks/gtm_noscript.liquid %}
+        {{ content }}
+    </body>
+</html>

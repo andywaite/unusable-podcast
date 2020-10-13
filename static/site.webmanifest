@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ff9cbe",
-    "background_color": "#ff9cbe",
+    "theme_color": "#FD9CB9",
+    "background_color": "#222840",
     "start_url": "https://podcast.theunusable.com"
 }

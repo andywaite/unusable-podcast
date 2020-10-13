@@ -1,0 +1,108 @@
+@import "variables";
+
+/**
+ *
+ * GENERIC
+ *
+ */
+
+body {
+  min-height:100vh;
+  white-space: pre; /* CSS 2.0 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3.0 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: -moz-pre-wrap; /* Mozilla */
+  word-wrap: break-word; /* IE 5+ */
+}
+
+a {
+  color: $text-colour-light;
+  text-decoration: underline;
+
+  &:active,
+  &:hover {
+    color: $brand-colour-highlight;
+    text-decoration: none;
+  }
+}
+
+.show-on-focus {
+}
+
+.show-on-focus:focus {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: auto;
+  overflow: auto;
+  clip: auto;
+  white-space: normal;
+}
+
+.flex-fill {
+  flex:1 1 auto;
+}
+
+.unusable__highlight-text {
+  color: $brand-colour-highlight;
+}
+
+.unusable__highlight {
+  background-color: $brand-colour-highlight;
+
+  a {
+    &:hover {
+      color: $full-white;
+    }
+  }
+}
+
+.unusable__dark {
+  background-color: $brand-colour-dark;
+  color: $text-colour-dark;
+
+  a {
+    color: $text-colour-dark;
+
+    &:active,
+    &:hover {
+      color: $brand-colour-highlight;
+    }
+  }
+}
+
+.unusable__underline {
+  background: linear-gradient(0deg, rgba(255,0,0,0) 14%, $brand-colour-highlight 14%, $brand-colour-highlight 30%, rgba(233,233,233,0) 30%);
+}
+
+.unsable__highlight {
+  color: $brand-colour-highlight;
+}
+
+.unusable__block {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  h2 {
+    margin-top: -10px;
+    padding: 0 0 60px;
+  }
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+/**
+BODY
+ */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $brand-colour-light;
+  color: $text-colour-light;
+}
+
+@import "blocks";
+@import "components";

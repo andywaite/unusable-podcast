@@ -1,0 +1,17 @@
+<!-- START CTA -->
+<div class="subscribe-cta unusable__dark">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <h2 class="unusable__highlight-text">Subscribe now</h2>
+            </div>
+            {% assign firstFourPlatforms = platforms | limit:4 %}
+            {% for platform in firstFourPlatforms %}
+            <div class="col-lg-2">
+                {% include components/secondary_button.liquid, link: platform.url, label: platform.name %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- END CTA -->

@@ -1,0 +1,30 @@
+<a class="sr-only show-on-focus" href="#main">Skip to main content</a>
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        {% if dark %}
+            <img src="/images/logo-dark.svg" alt="Unusable Podcast" class="logo" />
+        {% else %}
+            <img src="/images/logo.svg" alt="Unusable Podcast" class="logo" />
+        {% endif %}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            {% assign links = nav |  toarray %}
+            {% for link in links %}
+                {%  if link.label != "Episodes" %}
+                    <li class="nav-item{% if page.url == link.path %} active{% endif %}">
+                        <a class="nav-link" href="{{ link.path }}">
+                            {{ link.label }}{% if page.url == link.path %} <span class="sr-only">(current)</span>{% endif %}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+            <li class="nav-item{% if page.url == '/podcasts' %} active{% endif %}">
+                {% include components/primary_button.liquid, link: "/podcasts", label: "Listen now" %}
+            </li>
+        </ul>
+    </div>
+</nav>
