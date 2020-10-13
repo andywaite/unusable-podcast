@@ -2,31 +2,6 @@ Directory of the Unusable podcast website, including audio assets and podcast fe
 Podcast website https://podcast.theunusable.com/
 Podcast feed: https://podcast.theunusable.com/podcast.rss
 
-## Unfinished 2020 version
-
-This is the new 2020 version, now using Eleventy. There is plenty still to do:
-
- - ~~Make SCSS generation happen on build rather than using a watcher in IDE~~
- - ~~Finish adding schema data / ld+json~~
- - ~~Add og tags~~
- - ~~Add date to podcast episode & episodes page~~
- - Fix styling on mobile
- - ~~Explained section link on homepage is invisible~~
- - ~~Explained section doesn't work~~
- - ~~Explained section doesn't have content~~
- - ~~Check link hover states~~
- - ~~Shop page~~
- - ~~Videos page~~
- - ~~Make sure static files get copied over, and make sense (e.g. favicon)~~
- - ~~Sitemap generation~~
- - ~~Podcast feed generation~~
- - ~~Custom 404~~
- - ~~Images bork on Safari~~
- - ~~Podcast feed is invalid~~
- - Optimise / check in Lighthouse etc
-
-
-
 ## Local development
 
 To dev this site locally, you need to have yarn installed.
