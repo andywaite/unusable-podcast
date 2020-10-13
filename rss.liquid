@@ -41,7 +41,7 @@ eleventyExcludeFromCollections: true
                 </description>
                 <link>{{ metadata.siteUrl }}{{ podcast.url }}</link>
                 <enclosure url="{{ podcastUrl }}" type="audio/mpeg" length="0"></enclosure>
-                <pubDate>21 Jun 2020 18:30:00 +0000</pubDate>
+                <pubDate>{{ podcast.date | rssDate }}</pubDate>
                 <itunes:author>Andrew Waite &amp; David Ball</itunes:author>
                 <itunes:duration>{{ podcast.data.duration }}</itunes:duration>
                 <itunes:explicit>no</itunes:explicit>

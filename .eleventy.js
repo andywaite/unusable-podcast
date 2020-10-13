@@ -58,6 +58,11 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toISO();
     });
 
+    // Date formatting (for RSS feed)
+    eleventyConfig.addFilter("rssDate", dateObj => {
+        return DateTime.fromJSDate(dateObj).toRFC2822();
+    });
+
     // Process image tags
     eleventyConfig.addShortcode("image", async (src, alt, className) => {
 
