@@ -108,22 +108,25 @@ SUBSCRIBE CTA
     margin: 0;
     padding: 30px 0 15px;
 
-    @media (min-width: $screen-size-large) {
-      text-align: left;
-      padding: 0;
-    }
-
-    &:after {
-      content: "\27F6";
-      margin-left: 10px;
-      color: $brand-colour-highlight;
-    }
   }
 
-  &:hover h2 {
-    animation-name: bounce-right;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+  @media (min-width: $screen-size-large) {
+    h2 {
+      text-align: left;
+      padding: 0;
+
+      &:after {
+        content: "\27F6";
+        margin-left: 10px;
+        color: $brand-colour-highlight;
+      }
+    }
+
+    &:hover h2 {
+      animation-name: bounce-right;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+    }
   }
 }
 
