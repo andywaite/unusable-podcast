@@ -88,6 +88,8 @@ HOME HERO
 SUBSCRIBE CTA
  */
 .subscribe-cta {
+  padding-bottom: 20px;
+
   .btn-secondary {
     width: 100%;
     margin: 18px 0;
@@ -111,6 +113,8 @@ SUBSCRIBE CTA
   }
 
   @media (min-width: $screen-size-large) {
+    padding-bottom: 0;
+
     h2 {
       text-align: left;
       padding: 0;
