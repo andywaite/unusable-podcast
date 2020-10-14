@@ -1,5 +1,5 @@
 <a class="sr-only show-on-focus" href="#main">Skip to main content</a>
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar {% if dark %}navbar-dark{% else %}navbar-light{% endif %} navbar-expand-lg">
     <a class="navbar-brand" href="/">
         {% if dark %}
             <img src="/images/logo-dark.svg" alt="Unusable Podcast" class="logo" />
@@ -27,4 +27,14 @@
             </li>
         </ul>
     </div>
+    <script>
+        // Toggle mobile menu
+        document.querySelector('.navbar-toggler').addEventListener('click', (event) => {
+            if (document.querySelector('.navbar-collapse').classList.contains('show')) {
+                document.querySelector('.navbar-collapse').classList.remove('show');
+            } else {
+                document.querySelector('.navbar-collapse').classList.add('show');
+            }
+        });
+    </script>
 </nav>
