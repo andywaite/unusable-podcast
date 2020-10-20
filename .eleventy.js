@@ -64,10 +64,14 @@ module.exports = function(eleventyConfig) {
     });
 
     // Process image tags
-    eleventyConfig.addShortcode("image", async (src, alt, className) => {
+    eleventyConfig.addShortcode("image", async (src, alt, className, width) => {
 
         if (!alt) {
             alt = "";
+        }
+
+        if (!width) {
+            width = 600;
         }
 
         let fallbackOutput = 'jpeg';
@@ -78,8 +82,10 @@ module.exports = function(eleventyConfig) {
             fallbackOutput = 'png';
         }
 
+        let sizes = [Math.ceil(width / 2), width, width * 2, width * 4];
+
         let stats = await Image(src, {
-            widths: [320, 640, 960, 1200, 1800, 2400],
+            widths: sizes,
             formats: [fallbackOutput, "webp"],
             urlPath: "/images/",
             outputDir: "./_site/images/",
@@ -98,13 +104,15 @@ module.exports = function(eleventyConfig) {
             {}
         );
 
-        const source = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
+        const sizeAttribute = `(min-width: 992px) ${width}px, 100vw`;
+
+        const source = `<source type="image/webp" srcset="${srcset["webp"]}" sizes='${sizeAttribute}'>`;
 
         const img = `<img
           loading="lazy"
           alt="${alt}"
           src="${lowestSrc.url}"
-          sizes='(min-width: 1024px) 1024px, 100vw'
+          sizes='${sizeAttribute}'
           srcset="${srcset[fallbackOutput]}"
           width="${lowestSrc.width}"
           height="${lowestSrc.height}"

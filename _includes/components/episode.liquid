@@ -12,7 +12,7 @@
         </p>
     </div>
     {% assign image = "podcasts/" | append:podcast.data.number | append:".jpg" %}
-    {% image image, "", "podcast-card__image" %}
+    {% image image, "", "podcast-card__image", 350 %}
     <p class="podcast-card__description">{{ podcast.data.description }}</p>
     <a href="{{ podcast.url }}" class="podcast-card__link"><span class="sr-only">{{ podcast.data.title }}</span></a>
 </div>
