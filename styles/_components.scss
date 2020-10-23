@@ -144,7 +144,7 @@ PODCAST CARD
 
   &__episode-number {
     background-color: $brand-colour-highlight;
-    color: $text-colour-dark;
+    color: $text-colour-light;
     padding: 2px 16px;
     letter-spacing: 0.05rem;
     display: block;
@@ -170,7 +170,7 @@ PODCAST CARD
   &__date,
   &__duration {
     text-transform: uppercase;
-    color: #737373;
+    color: $light-text;
     font-size: 0.6rem;
     letter-spacing: 2px;
     width: 50%;

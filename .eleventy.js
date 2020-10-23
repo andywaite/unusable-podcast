@@ -82,7 +82,7 @@ module.exports = function(eleventyConfig) {
             fallbackOutput = 'png';
         }
 
-        let sizes = [Math.ceil(width / 2), width, width * 2, width * 4];
+        let sizes = [Math.ceil(width / 2), width, width * 2];
 
         let stats = await Image(src, {
             widths: sizes,
