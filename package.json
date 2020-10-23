@@ -14,5 +14,8 @@
     "dev": "eleventy --serve",
     "build": "eleventy"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "clean-css": "^4.2.3"
+  }
 }
