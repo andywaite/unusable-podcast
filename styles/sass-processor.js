@@ -8,7 +8,7 @@ module.exports = (scssPath, cssPath) => {
     //If cssPath directory doesn't exist...
     if(!fs.existsSync(path.dirname(cssPath))) {
         //Encapsulate rendered css from scssPath into result variable
-        const compiled = sass.renderSync({file: scssPath, outputStyle: "compressed", sourceComments: false});
+        const compiled = sass.renderSync({file: scssPath, sourceComments: false});
         const result = new CleanCss({}).minify(compiled.css.toString()).styles;
         //Create cssPath directory recursively
         fs.mkdirp(path.dirname(cssPath), {recursive: true}, (err) => {
@@ -24,7 +24,7 @@ module.exports = (scssPath, cssPath) => {
     // fs.watch(path.dirname(scssPath), () => {
     //     console.log(`Watching ${path.dirname(scssPath)}...`);
     //     //Encapsulate rendered css from scssPath into watchResult variable
-    //     const compiled = sass.renderSync({file: scssPath, outputStyle: "compressed", sourceComments: false});
+    //     const compiled = sass.renderSync({file: scssPath, sourceComments: false});
     //     const watchResult = new CleanCss({}).minify(compiled.css.toString()).styles;
     //     //Then write result css string to cssPath file
     //     fs.writeFile(cssPath, watchResult)
