@@ -22,5 +22,6 @@ Other things we talk about:
  
  Links mentioned:
   - [The water-saving device wasting billions of litres every week](https://www.bbc.co.uk/news/uk-54326178)
+  - [Laws of UX](https://lawsofux.com/)
   
 
