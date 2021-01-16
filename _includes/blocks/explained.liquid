@@ -21,36 +21,36 @@
                     <li>
                         <a href="#who-are-unusable-podcast">Who are you guys?</a>
                     </li>
-                    <script>
-                        // Get all the links above
-                        let links = document.querySelectorAll('.podcast-explained__nav li a');
-
-                        // Click / hover handler
-                        let podcastExplainedHandler = function (event) {
-                            // Strip "active" classes from every link & block
-                            for (let x = 0; x < links.length; x++) {
-                                let hideLink = links[x];
-                                hideLink.parentElement.classList.remove('active');
-                                let hideAnchor = hideLink.getAttribute('href');
-                                document.querySelector(hideAnchor).classList.add('d-none', 'd-block', 'd-lg-none');
-                            }
-
-                            // Set active state on clicked link
-                            this.parentElement.classList.add('active');
-
-                            // Unhide related block
-                            let anchor = this.getAttribute('href');
-                            document.querySelector(anchor).classList.remove('d-none', 'd-block', 'd-lg-none');
-                            event.preventDefault();
-                        };
-
-                        // Loop over links
-                        for (let i = 0; i < links.length; i++) {
-                            // Add click handler to the link
-                            links[i].addEventListener('click', podcastExplainedHandler);
-                        }
-                    </script>
                 </ul>
+                <script>
+                    // Get all the links above
+                    let links = document.querySelectorAll('.podcast-explained__nav li a');
+
+                    // Click / hover handler
+                    let podcastExplainedHandler = function (event) {
+                        // Strip "active" classes from every link & block
+                        for (let x = 0; x < links.length; x++) {
+                            let hideLink = links[x];
+                            hideLink.parentElement.classList.remove('active');
+                            let hideAnchor = hideLink.getAttribute('href');
+                            document.querySelector(hideAnchor).classList.add('d-none', 'd-block', 'd-lg-none');
+                        }
+
+                        // Set active state on clicked link
+                        this.parentElement.classList.add('active');
+
+                        // Unhide related block
+                        let anchor = this.getAttribute('href');
+                        document.querySelector(anchor).classList.remove('d-none', 'd-block', 'd-lg-none');
+                        event.preventDefault();
+                    };
+
+                    // Loop over links
+                    for (let i = 0; i < links.length; i++) {
+                        // Add click handler to the link
+                        links[i].addEventListener('click', podcastExplainedHandler);
+                    }
+                </script>
             </div>
             <div class="col-lg-7">
                 <div class="explanation-card" id="what-is-usability">

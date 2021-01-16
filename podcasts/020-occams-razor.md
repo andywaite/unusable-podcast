@@ -15,12 +15,13 @@ Other things we talk about:
  - Programmers predicting & abstracting
  - Andy is "thinly spread"
  - Leaky toilets with a drop valve system
- - Simplicity of the iphone, compared to older phones
+ - Simplicity of the iPhone, compared to older phones
  - Camera shutters on old phones
  - Henry hoover
  - "With greater functionality comes greater complexity", quote by Spiderman 
  
  Links mentioned:
   - [The water-saving device wasting billions of litres every week](https://www.bbc.co.uk/news/uk-54326178)
+  - [Laws of UX](https://lawsofux.com/)
   
 
