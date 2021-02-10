@@ -173,6 +173,37 @@ SUBSCRIBE CTA
   100% {transform: translateX(0)}
 }
 
+/**
+QUOTES
+ */
+.podcast-quotes {
+
+
+  blockquote {
+    background-color: #FFCDDC;
+    border-radius: 10px 10px 10px 0;
+    padding: 20px;
+    margin-left: 40px;
+    min-height: 100%;
+    font-size: 1.2rem;
+
+    &:before {
+      content: "★";
+      color: $text-colour-dark;
+      text-align:center;
+      vertical-align: middle;
+      display: block;
+      width: 25px;
+      height: 25px;
+      background-color: $brand-colour-dark;
+      border-radius: 50%;
+      position: absolute;
+      left: 15px;
+      bottom: 15px;
+      line-height: 1.12em;
+    }
+  }
+}
 
 /**
 PODCAST EXPLAINED
@@ -346,6 +377,9 @@ footer {
     margin-bottom: 90px;
   }
 
+  p {
+    margin: 3rem 0 0;
+  }
 
   h3 {
     font-style: normal;
@@ -424,5 +458,25 @@ PODCAST ARTICLE
   .row {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+}
+
+
+/**
+* TEXT PAGES
+ */
+.text-page {
+  padding: 2rem 0;
+
+  h2 {
+    margin: 4rem 0 2rem;
+  }
+
+  h3 {
+    margin: 4rem 0 2rem;
+  }
+
+  p {
+    margin: 2rem 0;
   }
 }
