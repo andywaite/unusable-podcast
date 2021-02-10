@@ -377,6 +377,9 @@ footer {
     margin-bottom: 90px;
   }
 
+  p {
+    margin: 3rem 0 0;
+  }
 
   h3 {
     font-style: normal;
@@ -455,5 +458,25 @@ PODCAST ARTICLE
   .row {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+}
+
+
+/**
+* TEXT PAGES
+ */
+.text-page {
+  padding: 2rem 0;
+
+  h2 {
+    margin: 4rem 0 2rem;
+  }
+
+  h3 {
+    margin: 4rem 0 2rem;
+  }
+
+  p {
+    margin: 2rem 0;
   }
 }
