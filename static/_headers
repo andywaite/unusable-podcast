@@ -1,3 +1,0 @@
-/*
-    Content-Security-Policy: default-src 'self'; object-src 'none'; frame-src platform.twitter.com; script-src 'self' www.google-analytics.com platform.twitter.com cdn.syndication.twimg.com 'unsafe-inline'; connect-src 'self' www.google-analytics.com; img-src 'self' img.youtube.com platform.twitter.com pbs.twimg.com; style-src 'self' fonts.googleapis.com platform.twitter.com 'unsafe-inline'; font-src fonts.gstatic.com;
-    X-Frame-Options: DENY
