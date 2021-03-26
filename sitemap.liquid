@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
         <url>
             <loc>{{ metadata.siteUrl }}{{ page.url | url }}</loc>
             <lastmod>{{ page.date | isoDate }}</lastmod>
-            <changefreq>{{page.data.changeFreq}}</changefreq>
+            <changefreq>{% if page.data.changeFreq %}{{page.data.changeFreq}}{% else %}never{% endif %}</changefreq>
         </url>
     {% endfor %}
 </urlset>
