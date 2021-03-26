@@ -1,0 +1,47 @@
+---
+layout: layout.liquid
+title: Podcast sponsorship opportunities
+description: "If you want to reach an audience of UX researchers, sponsor our podcast!"
+---
+
+{% include blocks/header.liquid, dark: true, subtitle: ""  %}
+<main id="main" class="flex-fill d-flex align-items-center">
+    <div class="container text-page">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <p>Interested in reaching our audience of tech people? Well, maybe we could work together!</p>
+
+                <h3>What can we offer you?</h3>
+                <p>The Unusable Podcast has an established and loyal audience of people that for some reason enjoy listening to our nonsense. Our typical listeners are designers,
+                    web developers and UI/UX professionals.</p>
+                <p>Here's the sort of things we could do together:</p>
+                <ul>
+                    <li>A mention in our podcast</li>
+                    <li>An episode around an agreed topic</li>
+                    <li>A video about an agreed topic</li>
+                    <li>A link to your website from ours</li>
+                    <li>Promotion to our audience on social media</li>
+                </ul>
+
+                <p>We don't have anything set in stone, so if you're interested get in touch and we can discuss your requirements.</p>
+
+                <h3>We're not sell-outs</h3>
+                <p>It's really important that we genuinely believe in anything we put our name to. We're only interested in sponsorship that aligns with our values, and would be of
+                    genuine interest to our audience. If you're not sure, just send us a message and we can talk it through.</p>
+
+                {% assign podcasts = collections.podcast %}
+                <h2>Current opportunities</h2>
+                <h3>Accessibility sponsor</h3>
+                <p>Are you interested in promoting inclusion in the UX space? Would you like to be mentioned as our official accessibility sponsor?</p>
+                <p>To allow everyone to access our podcast, we'd like to be able to offer text transcriptions of our podcasts. Good quality transcription (done by human beings)
+                is relatively expensive for a part-time project, so we're looking for someone to cover the cost.
+                <p>We estimate that each new episode would cost around £50 to transcribe. Our entire back catalogue of
+                {{ podcasts.length }} episodes would cost approximately £{{ podcasts.length | times:50 }} to translate.</p>
+
+                <h2>Interested?</h2>
+                <p>Please get in touch by email <a href="mailto:podcast@theunusable.com">podcast@theunusable.com</a>.
+            </div>
+        </div>
+    </div>
+</main>
+{% include blocks/footer.liquid %}

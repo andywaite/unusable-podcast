@@ -14,5 +14,9 @@
   "shop": {
     "path": "/shop/",
     "label": "Shop"
+  },
+  "sponsorship": {
+    "path": "/sponsorship/",
+    "label": "Sponsor us"
   }
 }
