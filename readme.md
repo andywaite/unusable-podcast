@@ -23,7 +23,7 @@ yarn dev
 - Make sure to include the link to the MP3 file
 - Find an image using unsplash and add it to `/podcasts`. Make sure it's a jpg, and named the same as the podcast number - e.g. 018.jpg
 - Note that images get optimised automatically, no need to worry about its size
-- Commit & push master
+- Commit & push 'main'
 - Wait for site to go live
 - Check it's legit
 - Check feed is valid with http://castfeedvalidator.com/ & https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fpodcast.theunusable.com%2Fpodcast.rss
