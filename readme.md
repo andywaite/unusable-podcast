@@ -28,6 +28,7 @@ yarn dev
 - Check it's legit (should update on the homepage https://podcast.theunusable.com/)
 - Check feed is valid with http://castfeedvalidator.com/ & https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fpodcast.theunusable.com%2Fpodcast.rss
 
+
 ## To add a new video
 - Open _data/videos.json
 - Add video, keeping to the same format
