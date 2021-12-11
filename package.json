@@ -1,8 +1,9 @@
 {
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
-    "html-minifier": "^4.0.0",
     "@11ty/eleventy-img": "^1.0.0",
+    "feed-validator": "^1.1.1",
+    "html-minifier": "^4.0.0",
     "luxon": "^1.25.0",
     "sass": "^1.27.0"
   },
