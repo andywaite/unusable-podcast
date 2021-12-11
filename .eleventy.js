@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const htmlmin = require("html-minifier");
 const Image = require("@11ty/eleventy-img");
 const sass = require('./styles/sass-processor');
+const validateByW3c = require('feed-validator/actions/validate-by-w3c');
 
 module.exports = function(eleventyConfig) {
 
@@ -144,6 +145,19 @@ module.exports = function(eleventyConfig) {
     // Convert object to array
     eleventyConfig.addFilter("toarray", function(value) {
         return Object.values(value);
+    });
+
+    eleventyConfig.on('afterBuild', () => {
+        validateByW3c('_site/podcast.rss').then(function(result) {
+            if (result.errors.length > 0) {
+                console.error("RSS feed contained errors");
+                process.exitCode = 1;
+            }
+        }).catch(function (err) {
+            console.error("RSS feed validation failed");
+            process.exitCode = 1;
+        });
+
     });
 
     //Watching for modifications in style directory
