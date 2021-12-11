@@ -86,7 +86,7 @@ module.exports = function(eleventyConfig) {
 
         let stats = await Image(src, {
             widths: sizes,
-            formats: [fallbackOutput, "webp"],
+            formats: [fallbackOutput, "avif"],
             urlPath: "/images/",
             outputDir: "./_site/images/",
         });
@@ -106,7 +106,7 @@ module.exports = function(eleventyConfig) {
 
         const sizeAttribute = `(min-width: 992px) ${width}px, 100vw`;
 
-        const source = `<source type="image/webp" srcset="${srcset["webp"]}" sizes='${sizeAttribute}'>`;
+        const source = `<source type="image/avif" srcset="${srcset["avif"]}" sizes='${sizeAttribute}'>`;
 
         const img = `<img
           loading="lazy"
