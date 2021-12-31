@@ -1,7 +1,7 @@
 ---
 number: "027"
 title: "The UX of music players"
-date: 2021-12-20T15:35:00+00:00
+date: 2021-12-31T11:35:00+00:00
 description: "Record players with modern(ish) controls, & confusing cloud storage"
 mp3: "027-music.mp3"
 duration: 00:40:23
