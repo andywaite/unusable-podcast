@@ -1,7 +1,7 @@
 ---
 number: "028"
 title: "Is Gamification evil?"
-date: 2022-02-05T14:20:00+00:00
+date: 2022-02-06T18:08:00+00:00
 description: "Is gamification evil? Apple laptop gripes. What is bullshitification?"
 mp3: "027-music.mp3"
 duration: 00:57:44
