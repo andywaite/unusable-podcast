@@ -147,18 +147,19 @@ module.exports = function(eleventyConfig) {
         return Object.values(value);
     });
 
-    eleventyConfig.on('afterBuild', () => {
-        validateByW3c('_site/podcast.rss').then(function(result) {
-            if (result.errors.length > 0) {
-                console.error("RSS feed contained errors");
-                process.exitCode = 1;
-            }
-        }).catch(function (err) {
-            console.error("RSS feed validation failed");
-            process.exitCode = 1;
-        });
-
-    });
+    // Disabled as feed validation isn't working
+    // eleventyConfig.on('afterBuild', () => {
+    //     validateByW3c('_site/podcast.rss').then(function(result) {
+    //         if (result.errors.length > 0) {
+    //             console.error("RSS feed contained errors");
+    //             process.exitCode = 1;
+    //         }
+    //     }).catch(function (err) {
+    //         console.error("RSS feed validation failed", err);
+    //         process.exitCode = 1;
+    //     });
+    //
+    // });
 
     //Watching for modifications in style directory
     sass('styles/styles.scss', '_site/styles/styles.css');
