@@ -5,6 +5,7 @@ date: 2021-06-15T20:00:00+00:00
 description: "We talk about the article 'Why I'm losing faith in UX' by Mark Hurst. And toilets."
 mp3: "023-decline-of-ux.mp3"
 duration: 00:33:59
+youtube: XyGSvbhnZb8
 ---
 
 We talk about the article 'Why I'm losing faith in UX' by Mark Hurst, tech ethics & horrible cancellation processes. And toilets.

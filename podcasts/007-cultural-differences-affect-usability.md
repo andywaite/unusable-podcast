@@ -5,6 +5,7 @@ date: 2018-12-16T19:03:02Z
 description: "Cultures differ around the world - does that mean user interfaces should differ too? We talk about how companies have failed to reach international audiences &amp; some funny cultural blunders!"
 mp3: "007-cultural-differences.mp3"
 duration: 00:38:00
+youtube: 551Z9UU_VbI
 ---
 
 Cultures differ around the world - does that mean user interfaces should differ too? We talk about how companies have failed to reach international audiences &amp; some funny cultural blunders!

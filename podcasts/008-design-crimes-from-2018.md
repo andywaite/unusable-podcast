@@ -5,6 +5,7 @@ date: 2019-01-11T22:28:56Z
 description: "Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the PlayStation buttons"
 mp3: "008-design-crimes-from-2018.mp3"
 duration: 00:49:00
+youtube: ap9GqTs2M7w
 ---
 
 Bad design from 2018, plus other usability problems, dark patterns, how a computer forced David into an encounter with a naked man &amp; the origins of the PlayStation buttons.

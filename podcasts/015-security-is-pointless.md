@@ -5,6 +5,7 @@ date: 2020-01-19T18:43:47Z
 description: "Security is a hugely important topic. David &amp; Andrew share their look on what makes for good &amp; bad security, talk about their own experiences in building web apps, &amp; come to the realisation none of it matters anyway."
 mp3: "015-security-is-pointless.mp3"
 duration: 00:58:31
+youtube: E0ySyWvOncc
 ---
 Security is a hugely important topic. David and Andrew share their look on what makes for good and bad security, talk about their own experiences in building web apps, and come to the realisation none of it matters anyway.
 

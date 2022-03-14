@@ -5,6 +5,7 @@ date: 2020-04-11T14:47:07+01:00
 description: "Being forced to work from home due to coronavirus, Andrew &amp; David discuss video chatting using Zoom &amp; Skype, &amp; then the rigmarole of getting things delivered. It gets a bit silly towards the end, because Andrew has been drinking whisky."
 mp3: "016-working-from-home.mp3"
 duration: 00:50:01
+youtube: vAECKBqXsuk
 ---
 
 Being forced to work from home due to coronavirus, Andrew &amp; David discuss video chatting using Zoom &amp; Skype, &amp; then the rigmarole of getting things delivered. 

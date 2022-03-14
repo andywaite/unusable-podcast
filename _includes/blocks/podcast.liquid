@@ -17,6 +17,9 @@
     <div class="row">
         <div class="col-lg-6 mx-auto">
             <p class="text-center">
+                {% if youtube %}
+                    <a href="https://www.youtube.com/watch?v={{ youtube }}" class="btn btn-secondary">Listen on YouTube</a>
+                {% endif %}
                 <a href="/podcasts/{{ mp3 }}" class="btn btn-secondary">Download episode {{ number }} as MP3</a>
             </p>
         </div>
