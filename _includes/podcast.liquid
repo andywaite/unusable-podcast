@@ -10,6 +10,7 @@
     {% assign episodeNumber = "Episode " | append: number  %}
     {% assign image = "podcasts/" | append:number | append:".jpg" %}
     {% include blocks/header.liquid, dark: true, subtitle: episodeNumber, image: image, podcastDate: date  %}
+    {% include blocks/cta_bar.liquid, cta-title: "Listen now" %}
     <main id="main" class="flex-fill">
         {% include blocks/podcast.liquid %}
     </main>

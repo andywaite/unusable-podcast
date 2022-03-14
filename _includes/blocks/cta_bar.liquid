@@ -3,7 +3,13 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-4">
-                <h2 class="unusable__highlight-text">Subscribe now</h2>
+                <h2 class="unusable__highlight-text">
+                    {% if cta-title %}
+                        {{ cta-title }}
+                    {% else %}
+                        Subscribe now
+                    {% endif %}
+                </h2>
             </div>
             {% assign firstFourPlatforms = platforms | limit:4 %}
             {% for platform in firstFourPlatforms %}
