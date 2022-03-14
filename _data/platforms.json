@@ -4,12 +4,12 @@
     "url": "https://open.spotify.com/show/2uFEwKPKirIrhWowfgASOl"
   },
   {
-    "name": "iTunes",
+    "name": "Apple Podcasts",
     "url": "https://podcasts.apple.com/gb/podcast/unusable-podcast-ux-usability/id1412835387"
   },
   {
-    "name": "Google Play",
-    "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0LnRoZXVudXNhYmxlLmNvbS9wb2RjYXN0LnJzcw?sa=X&ved=2ahUKEwj13-eJ7KXsAhVF04UKHZoIAU8Q9sEGegQIARAE"
+    "name": "Google Podcasts",
+    "url": "https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0LnRoZXVudXNhYmxlLmNvbS9wb2RjYXN0LnJzcw%3D%3D"
   },
   {
     "name": "Amazon Music",
