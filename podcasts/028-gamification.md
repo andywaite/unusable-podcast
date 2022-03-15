@@ -5,6 +5,7 @@ date: 2022-02-07T18:00:00+00:00
 description: "Is gamification evil? Apple laptop gripes. What is bullshitification?"
 mp3: "028-gamification.mp3"
 duration: 00:57:44
+youtube: 9WcyTd5sZ9k
 ---
 
 Is gamification evil? Apple laptop gripes. What is bullshitification?

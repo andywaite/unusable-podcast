@@ -5,6 +5,7 @@ date: 2021-12-31T11:35:00+00:00
 description: "Record players with modern(ish) controls, &amp; confusing cloud storage"
 mp3: "027-music.mp3"
 duration: 00:40:23
+youtube: sLrVuKiRd0U
 ---
 
 We talk about record players with modern(ish) controls, & confusing cloud storage 

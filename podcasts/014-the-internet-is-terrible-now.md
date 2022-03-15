@@ -5,6 +5,7 @@ date: 2019-11-19T20:22:11Z
 description: "Andrew &amp; David discuss what makes the internet terrible now, like slow websites, browser inconsistencies, monopolisation &amp; stupid people."
 mp3: "014-internet-is-terrible-now.mp3"
 duration: 00:50:12
+youtube: O5DkaE2lfI0
 ---
 
 Andrew &amp; David discuss what makes the internet terrible now, like slow websites, browser inconsistencies, monopolisation &amp; people. 

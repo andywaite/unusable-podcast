@@ -5,6 +5,7 @@ date: 2019-09-09T15:56:41+01:00
 description: "David and Andrew talk about UX writing and try to answer why it's different to copywriting, and what microcopy is. They also discuss annoying browser notifications, a more sensible way for asking to set cookies, and why opening a japanese soda is difficult."
 mp3: "013-ux-writing-microcopy.mp3"
 duration: 00:53:28
+youtube: 6bSM7i_daog
 ---
 
 

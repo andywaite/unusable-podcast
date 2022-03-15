@@ -5,6 +5,7 @@ date: 2018-11-01T18:20:27Z
 description: "Andrew &amp; David talk about the history of computer user interfaces &amp; early computers, where UI is heading in the future with natural interfaces, &amp; Andy has a frustrating experience with a parking machine."
 mp3: "005-graphical-user-interface-history.mp3"
 duration: 00:57:00
+youtube: WJIux1rhUDY
 ---
 
 In this episode of the Unusable Podcast, Andrew &amp; David talk about the history of computer user interfaces and early computers, where UI is heading in the future with natural interfaces, and Andy has a frustrating experience with a parking machine.

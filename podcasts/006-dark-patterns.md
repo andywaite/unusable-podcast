@@ -5,6 +5,7 @@ date: 2018-11-22T14:47:44Z
 description: "Dark patterns are tricks that get customers to buy more in websites &amp; apps. We find examples &amp; prove how they're effective."
 mp3: "006-dark-patterns.mp3"
 duration: 00:42:00
+youtube: ihndWKnIc28
 ---
 
 In this episode of the Unusable Podcast, Andrew &amp; David discuss "dark patterns" which are tricks that get customers to buy more in websites &amp; apps. We talk about actual examples &amp; get distracted on Wish.com by all the cheap tat from China.

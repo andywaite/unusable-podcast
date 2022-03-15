@@ -5,6 +5,7 @@ date: 2019-03-08T09:28:30Z
 description: "David &amp; Andrew discuss the importance of designing for failure &amp; making sure the problem is communicated to the user."
 mp3: "009-designing-for-failure.mp3"
 duration: 00:44:30
+youtube: q8ZUBHeLU2w
 ---
 
 David &amp; Andrew discuss the importance of designing for failure &amp; making sure the problem is communicated to the user.

@@ -5,6 +5,7 @@ date: 2019-06-08T17:28:58+01:00
 description: "We discuss the Queen going shopping &amp; being shown how self-checkouts work, &amp; we discuss their advantages &amp; annoyances. Also Andy has a story about a lame practical joke on a teacher using his Tesco club card."
 mp3: "011-self-checkouts-online-shopping.mp3"
 duration: 00:44:20
+youtube: Csr793nvNH4
 ---
 
 

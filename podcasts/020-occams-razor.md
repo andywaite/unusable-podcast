@@ -5,6 +5,7 @@ date: 2020-11-28T18:00:00+00:00
 description: "What is Occam's razor? In this episode we discuss simple solutions often being the best."
 mp3: "020-occams-razor.mp3"
 duration: 00:47:09
+youtube: hMTYNFRvkrI
 ---
 
 What is Occam's razor? In this episode we discuss simple solutions often being the best.

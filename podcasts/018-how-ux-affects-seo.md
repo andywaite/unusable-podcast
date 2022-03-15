@@ -5,6 +5,7 @@ date: 2020-06-21T17:18:48+01:00
 description: "How does UX influence SEO? In this episode of The Unusable Podcast, we discuss how Google takes into account loading speed, mobile optimisation and other factors when deciding what to show first."
 mp3: "018-ux-affects-seo.mp3"
 duration: 00:31:39
+youtube: 9HItmcsLW9I
 ---
 
 How does UX influence SEO? In this episode of The Unusable Podcast, we discuss how Google takes into account loading speed, mobile optimisation and other factors when deciding what to show first.

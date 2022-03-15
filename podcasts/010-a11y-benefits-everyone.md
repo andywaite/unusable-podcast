@@ -5,6 +5,7 @@ date: 2019-04-09T21:44:25+01:00
 description: "In this podcast we discuss using technology with different types of disabilities &amp; how designing for accessibility benefits everyone. We also talk about voice UI for the elderly, &amp; Andy has a terrible experience in a bank."
 mp3: "010-a11y-benefits-everyone.mp3"
 duration: 00:57:00
+youtube: h395Uc4hPBs
 ---
 
 

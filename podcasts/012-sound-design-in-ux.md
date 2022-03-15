@@ -5,6 +5,7 @@ date: 2019-07-14T10:09:27+01:00
 description: "David and Andrew look at the role of sound in usability. From deliberately loud vacuum cleaners to the crunch of a Pringle, sound is an important but often forgotten aspect of user experience. Also, David almost gets punched, and Andrew bum-shuffles on a water slide like a dog with worms."
 mp3: "012-sound-design-ux.mp3"
 duration: 00:51:30
+youtube: -uG9h-m3Ou8
 ---
 
 
