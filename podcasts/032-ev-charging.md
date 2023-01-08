@@ -5,7 +5,7 @@ date: 2023-01-09T09:00:00+00:00
 description: "Andrew talks about EV charging with Wolfgang Bremer, Head of Design at Elli"
 mp3: "032-ev-charging.mp3"
 duration: 01:05:11
-youtube: tbd
+youtube: NSTY4wAWLjQ
 ---
 
 Cars are transitioning rapidly from fossil fuels to being battery powered. In this rapidly growing market, UX
