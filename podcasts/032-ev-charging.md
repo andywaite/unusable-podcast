@@ -1,7 +1,7 @@
 ---
 number: "032"
 title: "Solving EV charging problems"
-date: 2023-01-09T09:00:00+00:00
+date: 2023-01-10T09:00:00+00:00
 description: "Andrew talks about EV charging with Wolfgang Bremer, Head of Design at Elli"
 mp3: "032-ev-charging.mp3"
 duration: 01:05:11
