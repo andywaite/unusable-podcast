@@ -1,7 +1,7 @@
 ---
 number: "033"
 title: "It's not always a technical solution"
-date: 2023-02-05T20:30:00+00:00
+date: 2023-02-13T09:00:00+00:00
 description: "Sometimes you have to do things manually if automation fails"
 mp3: "033-not-always-a-technical-solution.mp3"
 duration: 00:53:34
