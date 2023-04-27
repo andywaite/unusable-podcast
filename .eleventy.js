@@ -65,7 +65,7 @@ module.exports = function(eleventyConfig) {
     });
 
     // Process image tags
-    eleventyConfig.addShortcode("image", async (src, alt, className, width) => {
+    eleventyConfig.addShortcode("image", async (src, alt, className, width, eager = false) => {
 
         if (!alt) {
             alt = "";
@@ -110,7 +110,7 @@ module.exports = function(eleventyConfig) {
         const source = `<source type="image/avif" srcset="${srcset["avif"]}" sizes='${sizeAttribute}'>`;
 
         const img = `<img
-          loading="lazy"
+          loading="${eager ? 'eager' : 'lazy'}"
           alt="${alt}"
           src="${lowestSrc.url}"
           sizes='${sizeAttribute}'
